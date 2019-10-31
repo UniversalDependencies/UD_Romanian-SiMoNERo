@@ -12,7 +12,7 @@ The syntactic parsing was made with the NLP Cube (https://github.com/adobe/NLP-C
 
 # Acknowledgments
 
-We are grateful to the texts providers: 
+We are grateful to the following texts providers: http://federatiaromanadiabet.ro (accessed November 2016), https://rmj.com.ro/ (accessed November 2016), https://societate-diabet.ro/ (accessed November 2016), http://pentrudiabet.ro (accessed November 2016).
 
 ## References
 
