@@ -6,7 +6,7 @@ SiMoNERo is a medical corpus of contemporary Romanian.
 
 
 SiMoNERo contains texts from three medical subdomains: cardiology, diabetes, endocrinology. The texts come from scientific books, journal articles and blog posts, but predominant are those coming from books.
-The texts display the following levels of annotation: tokenization, POS tagging, lemmatization, syntactic parsing and medical Named Entities. All levels, except for the syntactic one, are hand validated. The description of the corpus creation (excluding the syntactic annotation) is presented in Mitrofan et al. (2019).
+The texts display the following levels of annotation: tokenization, POS tagging, lemmatization, syntactic parsing and medical Named Entities (of the following types: ANAT (body parts), CHEM (Chemicals and Drugs), DISO (disorders), and PROC (procedures)). All levels, except for the syntactic one, are hand validated. The description of the corpus creation (excluding the syntactic annotation) is presented in Mitrofan et al. (2019).
 The syntactic parsing was made with the NLP Cube (https://github.com/adobe/NLP-Cube) system.
 
 
