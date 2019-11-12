@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>491</sentences><tokens>14552</tokens><words>14552</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>491</sentences><tokens>14552</tokens><words>14552</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="2710" /><!-- ,, de, ., și, în, fi, al, cu, (, ), la, un, avea, sine, sau -->
+  <forms unique="4062" /><!-- ,, de, ., și, în, cu, a, (, ), la, este, sau, se, care, mai -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">2085</tag><!-- aortic, cardiac, valvular, chirurgical, crescut, mitral, sever, ventricular, mare, pulmonar -->
+    <tag name="ADP">1941</tag><!-- de, în, cu, la, prin, pentru, din, pe, dintre, după -->
+    <tag name="ADV">522</tag><!-- mai, ca, iar, cât, frecvent, atât, special, cum, chiar, ales -->
+    <tag name="AUX">428</tag><!-- fi, avea, vrea -->
+    <tag name="CCONJ">571</tag><!-- și, sau, dar, însă, fie, ci, ori -->
+    <tag name="DET">663</tag><!-- al, un, acest, cel, alt, său, lui, mult, meu, a -->
+    <tag name="NOUN">4373</tag><!-- pacient, risc, tratament, IC, caz, bolnav, mortalitate, an, boală, studiu -->
+    <tag name="NUM">358</tag><!-- 2, 30, 7, doi, 15, 5, 60, 9, 10, 14 -->
+    <tag name="PART">78</tag><!-- nu, a, să -->
+    <tag name="PRON">388</tag><!-- sine, care, acela, acesta, ce, el, unul, fiecare, tot, altul -->
+    <tag name="PROPN">34</tag><!-- Bentall, Britanie, Carpentier, Edwards, Afilalo, Barlow, CoreValve, David, DeVega, Doppler -->
+    <tag name="PUNCT">1984</tag><!-- ,, ., (, ), /, -, [, ], %, < -->
+    <tag name="SCONJ">81</tag><!-- că, dacă, deoarece, deși, întrucât, fără, Întucât, încât -->
+    <tag name="VERB">936</tag><!-- putea, avea, asocia, determina, crește, face, trebui, indica, scădea, constitui -->
+    <tag name="X">110</tag><!-- Heart, IIb, V2, beta, Failure, Registry, T1DM, T2DM, V1, and -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="51">
+    <feat name="Abbr" value="Yes" upos="NOUN">439</feat><!-- IC, EI, VS, FE, Im, T2DM, BAC, FA, ICA, VD -->
+    <feat name="AdpType" value="Prep" upos="ADP,PUNCT">1977</feat><!-- de, în, cu, la, prin, pentru, din, pe, /, dintre -->
+    <feat name="Case" value="Acc" upos="ADP,PRON">2057</feat><!-- de, în, cu, la, se, prin, pentru, din, pe, dintre -->
+    <feat name="Case" value="Dat" upos="ADP,PRON">20</feat><!-- datorită, conform, coform, li, potrivit, îi, își -->
+    <feat name="Case" value="Dat,Gen" upos="DET">1</feat><!-- cărui -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON">1107</feat><!-- unei, aortice, asupra, comorbidităților, pacientului, pacienților, riscului, valvei, bolii, unui -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON">3391</feat><!-- care, o, un, pacienții, aortică, ce, bolnavii, cardiacă, cele, prezența -->
+    <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,NUM">2273</feat><!-- pacienții, bolnavii, prezența, creșterea, nivelul, tratamentul, mortalitatea, cazul, comorbidităților, vârsta -->
+    <feat name="Definite" value="Ind" upos="ADJ,NOUN,NUM">3746</feat><!-- vârstnici, ani, risc, aortică, cardiacă, aortice, pacienți, mare, valvulare, tratament -->
+    <feat name="Degree" value="Cmp" upos="ADJ">2</feat><!-- superioară -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">2388</feat><!-- aortică, cardiacă, aortice, mare, valvulare, vârstnici, crescut, severă, valvulară, frecvent -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV">2</feat><!-- extrem, extreme -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,VERB">4692</feat><!-- a, o, ale, aortică, cardiacă, cele, aortice, prezența, creșterea, valvulare -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">2374</feat><!-- un, al, pacienții, vârstnici, ani, risc, fost, bolnavii, pacienți, nivelul -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">715</feat><!-- este, sunt, poate, pot, are, trebuie, crește, determină, au, există -->
+    <feat name="Mood" value="Sub" upos="AUX,PART,VERB">30</feat><!-- să, fie, facă, adreseze, agraveze, constituie, influențeze, interfere, joace, realizeze -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">2465</feat><!-- sunt, au, ale, pacienții, vârstnici, ani, pot, bolnavii, cele, pacienți -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">5563</feat><!-- a, este, o, un, al, poate, risc, aortică, fost, cardiacă -->
+    <feat name="Number[psor]" value="Plur" upos="DET">11</feat><!-- lor, noastră, noastre, nostru -->
+    <feat name="Number[psor]" value="Sing" upos="DET,PRON">19</feat><!-- sa, său, săi, ei, lui, sale -->
+    <feat name="NumForm" value="Digit" upos="NUM">326</feat><!-- 2, 30, 7, 15, 5, 60, 9, 10, 14, 4 -->
+    <feat name="NumForm" value="Roman" upos="NUM">3</feat><!-- I, III, IV -->
+    <feat name="NumForm" value="Word" upos="ADJ,NUM">27</feat><!-- două, trei, prima, primele, primul, ultimilor, doi, doilea, doua, primei -->
+    <feat name="NumType" value="Card" upos="NUM">339</feat><!-- 2, 30, 7, 15, 5, 60, 9, două, 10, 14 -->
+    <feat name="NumType" value="Frac" upos="NUM">1</feat><!-- treime -->
+    <feat name="NumType" value="Ord" upos="ADJ,NUM">18</feat><!-- prima, primele, primul, ultimilor, I, III, IV, doilea, doua, primei -->
+    <feat name="PartType" value="Inf" upos="PART">19</feat><!-- a -->
+    <feat name="Person" value="1" upos="DET">4</feat><!-- noastră, noastre, nostru -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">1373</feat><!-- este, se, care, sunt, a, au, poate, pot, ce, are -->
+    <feat name="Polarity" value="Neg" upos="PART">44</feat><!-- nu -->
+    <feat name="Polarity" value="Pos" upos="CCONJ,SCONJ">652</feat><!-- și, sau, că, dar, dacă, deoarece, deși, însă, fie, ci -->
+    <feat name="Position" value="Prenom" upos="DET">86</feat><!-- această, acest, alte, aceste, alt, acestei, acestor, acestui, altă, aceeași -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">324</feat><!-- a, al, ale, ai, lor, sa, său, săi, noastră, ei -->
+    <feat name="PronType" value="Art" upos="DET">3</feat><!-- lui -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">154</feat><!-- cele, această, cel, acest, acestea, ceea, cei, aceea, aceste, cea -->
+    <feat name="PronType" value="Emp" upos="DET">1</feat><!-- însăși -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">268</feat><!-- o, un, unei, alte, unui, unor, toate, alt, multe, fiecare -->
+    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">184</feat><!-- care, ce, cât, cum, când, câte, căreia, căror, cărui, căruia -->
+    <feat name="PronType" value="Neg" upos="ADV">1</feat><!-- nici -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">482</feat><!-- a, se, al, ale, s-, ai, lor, sa, său, sine -->
+    <feat name="PronType" value="Tot" upos="NUM">2</feat><!-- ambele -->
+    <feat name="Reflex" value="Yes" upos="PRON">143</feat><!-- se, s-, sine, își -->
+    <feat name="Strength" value="Strong" upos="PRON">10</feat><!-- sine, Ele, ea, ei, el -->
+    <feat name="Strength" value="Weak" upos="PRON">148</feat><!-- se, s-, o, îl, îi, li, își -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">4</feat><!-- baza, era, erau, localiza -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">849</feat><!-- este, sunt, fi, poate, pot, are, trebuie, crește, determină, au -->
+    <feat name="Variant" value="Short" upos="ADP,PRON,VERB">44</feat><!-- s-, într-, dintr-, se, Într, de, de-, efectuându-, printr-, producându- -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">789</feat><!-- este, sunt, au, poate, pot, are, trebuie, ar, crește, determină -->
+    <feat name="VerbForm" value="Ger" upos="AUX,VERB">53</feat><!-- fiind, având, bătând, determinând, Studiind, aparținând, condiționând, constituind, crescând, deținând -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">123</feat><!-- fi, putea, avea, determina, prezenta, produce, antrena, contribui, evidenția, evita -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">338</feat><!-- fost, asociată, asociate, dovedit, arătat, avut, inclus, putut, tratați, administrat -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="40">
+    <dep name="acl">274</dep>
+    <dep name="advcl">123</dep>
+    <dep name="advmod">507</dep>
+    <dep name="advmod:tmod">1</dep>
+    <dep name="amod">1865</dep>
+    <dep name="appos">191</dep>
+    <dep name="aux">121</dep>
+    <dep name="aux:pass">117</dep>
+    <dep name="case">1813</dep>
+    <dep name="cc">558</dep>
+    <dep name="cc:preconj">5</dep>
+    <dep name="ccomp">96</dep>
+    <dep name="conj">804</dep>
+    <dep name="cop">183</dep>
+    <dep name="csubj">26</dep>
+    <dep name="csubj:pass">4</dep>
+    <dep name="det">665</dep>
+    <dep name="expl">6</dep>
+    <dep name="expl:impers">1</dep>
+    <dep name="expl:pass">75</dep>
+    <dep name="expl:poss">1</dep>
+    <dep name="expl:pv">62</dep>
+    <dep name="fixed">268</dep>
+    <dep name="flat">23</dep>
+    <dep name="goeswith">1</dep>
+    <dep name="iobj">46</dep>
+    <dep name="mark">145</dep>
+    <dep name="nmod">1897</dep>
+    <dep name="nmod:agent">46</dep>
+    <dep name="nmod:pmod">42</dep>
+    <dep name="nmod:tmod">9</dep>
+    <dep name="nsubj">615</dep>
+    <dep name="nsubj:pass">139</dep>
+    <dep name="nummod">228</dep>
+    <dep name="obj">317</dep>
+    <dep name="obl">622</dep>
+    <dep name="parataxis">113</dep>
+    <dep name="punct">1984</dep>
+    <dep name="root">491</dep>
+    <dep name="xcomp">68</dep>
+  </deps>
+</treebank>
