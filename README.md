@@ -36,7 +36,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Mitrofan, Maria, Barbu Mititelu, Verginica
+Contributors: Mitrofan, Maria; Barbu Mititelu, Verginica
 Contributing: elsewhere
 Contact: maria@racai.ro vergi@racai.ro
 ===============================================================================
