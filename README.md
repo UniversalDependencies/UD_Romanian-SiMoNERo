@@ -10,7 +10,8 @@ The texts display the following levels of annotation: tokenization, POS tagging,
 The syntactic parsing was made with the NLP Cube (https://github.com/adobe/NLP-Cube) system.
 
 # Basic Statistics
-Tree count: 4239
+Tree count: 4,239
+Tokens: 131,411
 
 
 # Acknowledgments
