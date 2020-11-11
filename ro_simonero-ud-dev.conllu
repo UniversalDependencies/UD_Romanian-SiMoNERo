@@ -310,7 +310,7 @@
 # text =  În schimb , HDL-colesterolul , apolipoproteinele A și B sunt superiori ca indicatori de risc cardiovascular .
 1	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	O
 2	schimb	schimb	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	O
-3	,	,	PUNCT	COMMA	_	1	punct	_	O
+3	,	,	PUNCT	COMMA	_	2	punct	_	O
 4	HDL-colesterolul	HDL-colesterol	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	B-CHEM
 5	,	,	PUNCT	COMMA	_	6	punct	_	O
 6	apolipoproteinele	apolipoproteină	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	conj	_	B-CHEM
@@ -8682,7 +8682,7 @@
 # text =  Din contra , venele centrale devin subțiri și ușor distensibile .
 1	Din	din	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	O
 2	contra	contra	ADV	Rgp	Degree=Pos	6	obl	_	O
-3	,	,	PUNCT	COMMA	_	1	punct	_	O
+3	,	,	PUNCT	COMMA	_	2	punct	_	O
 4	venele	venă	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	nsubj	_	B-ANAT
 5	centrale	central	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	I-ANAT
 6	devin	deveni	VERB	Vmip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
