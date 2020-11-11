@@ -9,6 +9,10 @@ SiMoNERo contains texts from three medical subdomains: cardiology, diabetes, end
 The texts display the following levels of annotation: tokenization, POS tagging, lemmatization, syntactic parsing and medical Named Entities (of the following types: ANAT (body parts), CHEM (Chemicals and Drugs), DISO (disorders), and PROC (procedures)). All levels, except for the syntactic one, are hand validated. The description of the corpus creation (excluding the syntactic annotation) is presented in Mitrofan et al. (2019).
 The syntactic parsing was made with the NLP Cube (https://github.com/adobe/NLP-Cube) system.
 
+# Basic Statistics
+Tree count: 4,239
+Tokens: 131,411
+
 
 # Acknowledgments
 
@@ -23,6 +27,12 @@ Maria Mitrofan, Verginica Barbu Mititelu, Grigorina Mitrofan, MoNERo: a Biomedic
 
 * 2019-11-15 v2.5
   * Initial release in Universal Dependencies.
+* 2020-10-27 v2.7
+* UD 2.5 --> 2.7
+  * The number of trees was considerably increased. UD 2.5 --> 2.7
+  * Increase the treebank size to 4239 sentences.
+  * Removed the errors reported by the content validation tool.
+  * Manual improvements of the annotation, concerning POS-tagging, syntactic labeling.
 
 
 <pre>
@@ -38,6 +48,6 @@ Features: converted from manual
 Relations: converted from manual
 Contributors: Mitrofan, Maria; Barbu Mititelu, Verginica
 Contributing: elsewhere
-Contact: maria@racai.ro vergi@racai.ro
+Contact: maria@racai.ro, vergi@racai.ro
 ===============================================================================
 </pre>

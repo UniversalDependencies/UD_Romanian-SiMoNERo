@@ -7845,9 +7845,9 @@
 5	determinant	determinant	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	O
 6	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	O
 7	riscului	risc	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	B-DISO
-8	,	,	PUNCT	COMMA	_	12	punct	_	O
-9	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	12	case	_	O
-10	un	un	DET	Timsr	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	O
+8	,	,	PUNCT	COMMA	_	11	punct	_	O
+9	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	11	case	_	O
+10	un	un	DET	Timsr	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	11	det	_	O
 11	odds	odds	X	X	_	3	obl	_	O
 12	ratio	ratio	X	X	_	11	nmod	_	O
 13	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	O
