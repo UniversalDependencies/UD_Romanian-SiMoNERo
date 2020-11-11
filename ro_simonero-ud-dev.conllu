@@ -12705,7 +12705,7 @@
 48	.	.	PUNCT	PERIOD	_	17	punct	_	O
 
 # sent_id = dev-344
-# sent_id = dev-345
+# text =  O parte din Fructoză-6-fosfat este convertită la glucozamino-6-fosfat ( GlcN-6-P ) care este apoi convertit la variați produși ai căii hexozaminei .
 1	O	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	O
 2	parte	parte	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	nsubj:pass	_	O
 3	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	O
@@ -12729,7 +12729,7 @@
 21	hexozaminei	hexozamină	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	B-CHEM
 22	.	.	PUNCT	PERIOD	_	6	punct	_	O
 
-# sent_id = dev-346
+# sent_id = dev-345
 # text =  Insulina produce numeroase efecte biologice care pot fi sistematizate în efecte metabolice ( efecte asupra metabolismului hidraților de carbon , al proteinelor și al lipidelor ) și efecte mitogenice ( efecte asupra creșterii , sintezei ADN , transcripției genice ) .
 1	Insulina	insulină	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	B-CHEM
 2	produce	produce	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
@@ -12773,7 +12773,7 @@
 40	)	)	PUNCT	RPAR	_	31	punct	_	O
 41	.	.	PUNCT	PERIOD	_	2	punct	_	O
 
-# sent_id = dev-347
+# sent_id = dev-346
 # text =  Inițial , la indivizii prediabetici cu rezistență la insulină , toleranța la glucoză este menținută în limite normale printr- un efort insulinosecretor aparent compensator .
 1	Inițial	inițial	ADV	Rgp	Degree=Pos	15	advmod	_	O
 2	,	,	PUNCT	COMMA	_	1	punct	_	O
@@ -12801,7 +12801,7 @@
 24	compensator	compensator	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	O
 25	.	.	PUNCT	PERIOD	_	15	punct	_	O
 
-# sent_id = dev-348
+# sent_id = dev-347
 # text =  Nu este pe deplin lămurit dacă acest proces de epuizare afectează celulele betapancreatice normale sau numai pe acelea care , având un defect ocult ( 146 ) sunt susceptibile să se epuizeze .
 1	Nu	nu	PART	Qz	Polarity=Neg	5	advmod	_	O
 2	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	O
@@ -12837,7 +12837,7 @@
 32	epuizeze	epuiza	VERB	Vmsp3	Mood=Sub|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	O
 33	.	.	PUNCT	PERIOD	_	5	punct	_	O
 
-# sent_id = dev-349
+# sent_id = dev-348
 # text =  În categoria Alte tipuri ( diabet secundar ) sunt incluse ca subclase Defecte genetice ale funcției &b.beta;-celulare ( de exemplu , MODY ) și Defecte genetice ale acțiunii insulinei .
 1	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	O
 2	categoria	categorie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	O
@@ -12870,7 +12870,7 @@
 29	insulinei	insulină	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	B-CHEM
 30	.	.	PUNCT	PERIOD	_	10	punct	_	O
 
-# sent_id = dev-350
+# sent_id = dev-349
 # text =  Pentru formele primar insulinodependente , dar cu vârste > 20 de ani , s- a adoptat titulatura de diabet zaharat de tip juvenil , care sugera apartenența la diabetul insulinopriv și insulinodependent .
 1	Pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	O
 2	formele	formă	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	16	obl	_	O
@@ -12906,7 +12906,7 @@
 32	insulinodependent	insulinodependent	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	30	conj	_	I-DISO
 33	.	.	PUNCT	PERIOD	_	16	punct	_	O
 
-# sent_id = dev-351
+# sent_id = dev-350
 # text =  Termenii insulinodependent / insulinoindependent au fost introduși în perioada în care , într-adevăr , insulina era utilizată aproape exclusiv în formele insulinoprive de diabet , viața pacienților depinzând de această administrare .
 1	Termenii	termen	NOUN	Ncmpry	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	O
 2	insulinodependent	insulinodependent	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	1	amod	_	O
@@ -12941,7 +12941,7 @@
 31	administrare	administrare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	28	nmod:pmod	_	O
 32	.	.	PUNCT	PERIOD	_	7	punct	_	O
 
-# sent_id = dev-352
+# sent_id = dev-351
 # text =  Incertitudinile care încă mai planează asupra mecanismului operant distructiv &b.beta;-celular în acest ultim subtip ( ~ 30 - 40 % din pacienții insulinodependenți ) împiedică adoptarea unei terminologii mai specifice .
 1	Incertitudinile	incertitudine	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	25	nsubj	_	O
 2	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	5	nsubj	_	O
@@ -12975,7 +12975,7 @@
 30	specifice	specific	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	O
 31	.	.	PUNCT	PERIOD	_	25	punct	_	O
 
-# sent_id = dev-353
+# sent_id = dev-352
 # text =  O creștere medie ( 43200 kg ) este întâlnită la pacienții cu T1DM care în perioada prediagnostică au pierdut un număr de kg echivalent cu cel recuperat după introducerea insulinoterapiei .
 1	O	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	O
 2	creștere	creștere	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj:pass	_	O
@@ -13009,7 +13009,7 @@
 30	insulinoterapiei	insulinoterapie	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	29	nmod	_	B-PROC
 31	.	.	PUNCT	PERIOD	_	9	punct	_	O
 
-# sent_id = dev-354
+# sent_id = dev-353
 # text =  Sensibilitatea bună a adipocitului la insulină va stimula lipogeneza din intermediarii glucozici , crescând depozitele de trigliceride din țesutul adipos .
 1	Sensibilitatea	sensibilitate	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	O
 2	bună	bun	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	O
@@ -13033,7 +13033,7 @@
 20	adipos	adipos	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	I-ANAT
 21	.	.	PUNCT	PERIOD	_	8	punct	_	O
 
-# sent_id = dev-355
+# sent_id = dev-354
 # text =  Aceasta însă nu exclude probabilitatea ca o persoană să moștenească pe o filiație defectul major din T1DM ( autoimunitate anti-&b.beta;-celulară ) iar pe altă filiație ( de la celălalt părinte ) un defect genetic caracteristic T2DM .
 1	Aceasta	acesta	PRON	Pd3fsr	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	O
 2	însă	însă	CCONJ	Ccssp	Polarity=Pos	4	cc	_	O
@@ -13073,7 +13073,7 @@
 36	T2DM	T2DM	NOUN	Yn	Abbr=Yes	35	iobj	_	B-DISO
 37	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
-# sent_id = dev-356
+# sent_id = dev-355
 # text =  Evident , defectul insulinosecretor specific T2DM poate fi în întregime acoperit ( mascat ) de distrucția celulelor beta pancreatice .
 1	Evident	evident	ADV	Rgp	Degree=Pos	7	advmod	_	O
 2	,	,	PUNCT	COMMA	_	1	punct	_	O
@@ -13096,7 +13096,7 @@
 19	pancreatice	pancreatic	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	I-ANAT
 20	.	.	PUNCT	PERIOD	_	7	punct	_	O
 
-# sent_id = dev-357
+# sent_id = dev-356
 # text =  În schimb , disfuncțiile periferice ( creșterea insulinorezistenței în mușchi sau producția excesivă de citokine în țesutul adipos ) pot fi prezente la unii pacienți cu T1DM .
 1	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	20	advmod	_	O
 2	schimb	schimb	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	1	fixed	_	O
@@ -13127,7 +13127,7 @@
 27	T1DM	T1DM	NOUN	Yn	Abbr=Yes	25	nmod	_	B-DISO
 28	.	.	PUNCT	PERIOD	_	20	punct	_	O
 
-# sent_id = dev-358
+# sent_id = dev-357
 # text =  Se poate presupune , deci , că moștenirea defectului autoimun anti-&b.beta;-celular dintr- o linie familială se poate asocia cu un alt defect ( de tipul insulinorezistenței periferice ) caracteristic formei de T2DM .
 1	Se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	2	expl:pv	_	O
 2	poate	putea	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
@@ -13163,7 +13163,7 @@
 32	T2DM	T2DM	NOUN	Yn	Abbr=Yes	30	nmod	_	B-DISO
 33	.	.	PUNCT	PERIOD	_	2	punct	_	O
 
-# sent_id = dev-359
+# sent_id = dev-358
 # text =  Faptul că acești pacienți au tendința la câștig ponderal important sugerează existența unui defect metabolic adipocitar , operant în prezența insulinei administrate exogen , așa cum ar fi operat și în prezența hiperinsulinismului endogen existent în T2DM .
 1	Faptul	fapt	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	O
 2	că	că	SCONJ	Csssp	Polarity=Neg	5	mark	_	O
@@ -13204,7 +13204,7 @@
 37	T2DM	T2DM	NOUN	Yn	Abbr=Yes	35	obl	_	B-DISO
 38	.	.	PUNCT	PERIOD	_	11	punct	_	O
 
-# sent_id = dev-360
+# sent_id = dev-359
 # text =  Pe datele noastre încă nepublicate privind T2DM am constatat că subtipul familial are o evoluție mai puțin severă față de subtipul sporadic .
 1	Pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	O
 2	datele	dată	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	O
@@ -13230,7 +13230,7 @@
 22	sporadic	sporadic	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	O
 23	.	.	PUNCT	PERIOD	_	9	punct	_	O
 
-# sent_id = dev-361
+# sent_id = dev-360
 # text =  Poate nu cel mai important , întrucât numai ~ 35% din obezi devin diabetici ( 31 , 33 , 34 , 39 ) .
 1	Poate	poate	ADV	Rgp	Degree=Pos	0	root	_	O
 2	nu	nu	PART	Qz	Polarity=Neg	5	advmod	_	O
@@ -13257,7 +13257,7 @@
 23	)	)	PUNCT	RPAR	_	16	punct	_	O
 24	.	.	PUNCT	PERIOD	_	1	punct	_	O
 
-# sent_id = dev-362
+# sent_id = dev-361
 # text =  Aceasta va induce o discretă creștere glicemică datorită utilizării scăzute a glucozei în mușchi , ne- inhibării complete a gluconeogenezei și glicogenolizei în ficat .
 1	Aceasta	acesta	PRON	Pd3fsr	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	O
 2	va	vrea	AUX	Va--3s	Number=Sing|Person=3	3	aux	_	O
@@ -13285,7 +13285,7 @@
 24	ficat	ficat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	B-ANAT
 25	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-363
+# sent_id = dev-362
 # text =  Hiperinsulinismul asociat cu creșterea glicemică va devia glucoza disponibilă către singurul țesut insulinodependent sensibil la insulină , care este adipocitul .
 1	Hiperinsulinismul	hiperinsulinism	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	B-DISO
 2	asociat	asocia	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	O
@@ -13309,7 +13309,7 @@
 20	adipocitul	adipocit	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	acl	_	B-ANAT
 21	.	.	PUNCT	PERIOD	_	7	punct	_	O
 
-# sent_id = dev-364
+# sent_id = dev-363
 # text =  Elementul comun rămâne defectul insulinosecretor , care este și cel ce definește T2DM .
 1	Elementul	element	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	O
 2	comun	comun	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	O
@@ -13326,7 +13326,7 @@
 13	T2DM	T2DM	NOUN	Yn	Abbr=Yes	12	obj	_	B-DISO
 14	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-365
+# sent_id = dev-364
 # text =  S- a considerat o vreme că toate formele de diabet insulinoindependente întâlnite la copil erau încadrabile în tipurile MODY .
 1	S-	sine	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	3	expl:pass	_	O
 2	a	avea	AUX	Va--3s	Number=Sing|Person=3	3	aux	_	O
@@ -13349,7 +13349,7 @@
 19	MODY	MODY	NOUN	Yn	Abbr=Yes	18	nmod	_	B-DISO
 20	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-366
+# sent_id = dev-365
 # text =  Principala cauză a obezității la copil trebuie căutată în stilul de viață ( alimentație hipercalorică și sedentarismul impus de dezvoltarea fără precedent a modalității de imobilizare a copiilor în fața ecranelor TV sau a jocurilor electronice portabile sau pe calculator ) .
 1	Principala	principal	ADJ	Afpfsry	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	O
 2	cauză	cauză	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	O
@@ -13394,7 +13394,7 @@
 41	)	)	PUNCT	RPAR	_	14	punct	_	O
 42	.	.	PUNCT	PERIOD	_	7	punct	_	O
 
-# sent_id = dev-367
+# sent_id = dev-366
 # text =  Funcția reproductivă a femeii implică o serie de particularități endocrino-metabolice , exprimate la nivel anatomic și fiziologic , care nu se întâlnesc la bărbat .
 1	Funcția	funcție	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	O
 2	reproductivă	reproductiv	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	O
@@ -13422,7 +13422,7 @@
 24	bărbat	bărbat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	O
 25	.	.	PUNCT	PERIOD	_	5	punct	_	O
 
-# sent_id = dev-368
+# sent_id = dev-367
 # text =  Diabetul gestațional exprimă incapacitatea celulelor &b.beta; pancreatice de a se adapta solicitărilor crescute din cursul sarcinii ( 46 ) .
 1	Diabetul	diabet	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	B-DISO
 2	gestațional	gestațional	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	I-DISO
@@ -13445,7 +13445,7 @@
 19	)	)	PUNCT	RPAR	_	18	punct	_	O
 20	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-369
+# sent_id = dev-368
 # text =  O ultimă particularitate etiopatogenică a diabetului zaharat înregistrat la femei vs .
 1	O	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	O
 2	ultimă	ultim	NUM	Mofsrln	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumForm=Word|NumType=Ord	3	nummod	_	O
@@ -13460,7 +13460,7 @@
 11	vs	vs	NOUN	Yn	Abbr=Yes	10	nmod	_	B-ANAT
 12	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-370
+# sent_id = dev-369
 # text =  Am susținut în diferite ocazii în acest tratat că valoarea de 100 mg / dl ( poate chiar de 90 mg / dl ) este mai potrivită pentru a face distincția între normalul și patologicul glicemic .
 1	Am	avea	AUX	Va--1	Person=1|VerbForm=Fin	2	aux	_	O
 2	susținut	susține	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	O
@@ -13500,7 +13500,7 @@
 36	glicemic	glicemic	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	O
 37	.	.	PUNCT	PERIOD	_	2	punct	_	O
 
-# sent_id = dev-371
+# sent_id = dev-370
 # text =  Relația adiponectinei cu insulinorezistența ( 6 , 16 ) , cu T2DM , cu diabetul gestațional ( 6 ) sau cu riscul cardiovascular ( 25 , 26 , 84 ) a condus la analiza posibilei contribuții a unui defect în transcrierea ei ( 27 , 30 ) .
 1	Relația	relație	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	32	nsubj	_	O
 2	adiponectinei	adiponectină	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	B-CHEM
@@ -13551,7 +13551,7 @@
 47	)	)	PUNCT	RPAR	_	44	punct	_	O
 48	.	.	PUNCT	PERIOD	_	32	punct	_	O
 
-# sent_id = dev-372
+# sent_id = dev-371
 # text =  Invers , o activitate musculară crescută induce modificări profunde asupra metabolsimului și morfologiei fibrelor musculare ( 59 , 75 ) .
 1	Invers	invers	ADV	Rgp	Degree=Pos	7	xcomp	_	O
 2	,	,	PUNCT	COMMA	_	1	punct	_	O
@@ -13575,7 +13575,7 @@
 20	)	)	PUNCT	RPAR	_	17	punct	_	O
 21	.	.	PUNCT	PERIOD	_	7	punct	_	O
 
-# sent_id = dev-373
+# sent_id = dev-372
 # text =  Gradul de obezitate postpartum , mai ales al celei abdominale , este determinantul major al sensibilității la insulină postpartum , iar obezitatea ce precede sarcina , un indicator al suprasolicitării funcției &b.beta;-celulare dinainte  de sarcină .
 1	Gradul	grad	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	O
 2	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	3	case	_	O
@@ -13614,7 +13614,7 @@
 35	sarcină	sarcină	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	30	nmod	_	O
 36	.	.	PUNCT	PERIOD	_	13	punct	_	O
 
-# sent_id = dev-374
+# sent_id = dev-373
 # text =  Această interpretare etiopatogenetică ar explica dificultățile mari în identificarea unei gene diabetogene anume , care să poată fi confirmată în studii independente și pe populații diferite .
 1	Această	acest	DET	Dd3fsr---e	Case=Nom|Gender=Fem|Number=Sing|Person=3|Position=Prenom|PronType=Dem	2	det	_	O
 2	interpretare	interpretare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	O
@@ -13644,7 +13644,7 @@
 26	diferite	diferit	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	O
 27	.	.	PUNCT	PERIOD	_	5	punct	_	O
 
-# sent_id = dev-375
+# sent_id = dev-374
 # text =  Menționăm că în unele țări africane există o formă de diabet denumit diabet lipoatrofic ( caracterizat prin absența țesutului adipos subcutanat ) și care prezintă o mare rezistență la insulina exogenă ( 66 , 76 ) .
 1	Menționăm	menționa	VERB	Vmip1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	O
 2	că	că	SCONJ	Csssp	Polarity=Neg	7	mark	_	O
@@ -13684,7 +13684,7 @@
 36	)	)	PUNCT	RPAR	_	33	punct	_	O
 37	.	.	PUNCT	PERIOD	_	1	punct	_	O
 
-# sent_id = dev-376
+# sent_id = dev-375
 # text =  Diabetul fibrocalculos ( diabetul pancreatic tropical ) reprezintă între 43105 % dintre cazurile de diabet înregistrate la vârste tinere ( 14885 ani ) .
 1	Diabetul	diabet	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	B-DISO
 2	fibrocalculos	fibrocalculos	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	I-DISO
@@ -13711,7 +13711,7 @@
 23	)	)	PUNCT	RPAR	_	22	punct	_	O
 24	.	.	PUNCT	PERIOD	_	8	punct	_	O
 
-# sent_id = dev-377
+# sent_id = dev-376
 # text =  Consumul de casava ( o plantă nutritivă cu conținut crescut de glicozide cianogene ) și aportul scăzut de proteine , au fost și ele implicate ( 66 ) .
 1	Consumul	consum	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	nsubj:pass	_	O
 2	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	3	case	_	O
@@ -13743,7 +13743,7 @@
 28	)	)	PUNCT	RPAR	_	27	punct	_	O
 29	.	.	PUNCT	PERIOD	_	25	punct	_	O
 
-# sent_id = dev-378
+# sent_id = dev-377
 # text =  În ultimii ani se discută intens referitor la semnificația alterării metabolismului sistemului proteinkinazelor și citokinelor / factorilor de creștere .
 1	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	3	case	_	O
 2	ultimii	ultimii	NUM	Momprly	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|NumForm=Word|NumType=Ord	3	nummod	_	O
@@ -13766,7 +13766,7 @@
 19	creștere	creștere	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	O
 20	.	.	PUNCT	PERIOD	_	5	punct	_	O
 
-# sent_id = dev-379
+# sent_id = dev-378
 # text =  Această cale alternativă de metabolizare a glucozei este mediată enzimatic de aldozoreductază ( AR , care transformă glucoza în sorbitol ) și sorbitol dehidrogenază ( SDH , care transformă sorbitolul în fructoză ) .
 1	Această	acest	DET	Dd3fsr---e	Case=Nom|Gender=Fem|Number=Sing|Person=3|Position=Prenom|PronType=Dem	2	det	_	O
 2	cale	cale	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj:pass	_	O
@@ -13803,7 +13803,7 @@
 33	)	)	PUNCT	RPAR	_	26	punct	_	O
 34	.	.	PUNCT	PERIOD	_	9	punct	_	O
 
-# sent_id = dev-380
+# sent_id = dev-379
 # text =  Din cauza analogiei structurale cu glucoza , în celulele renale și nervoase , competiția de transport între cele două molecule duce la depleția celulară de mioinozitol .
 1	Din	din	ADP	Spsa	AdpType=Prep|Case=Acc	3	case	_	O
 2	cauza	cauză	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	fixed	_	O
@@ -13833,7 +13833,7 @@
 26	mioinozitol	mioinozitol	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	B-CHEM
 27	.	.	PUNCT	PERIOD	_	21	punct	_	O
 
-# sent_id = dev-381
+# sent_id = dev-380
 # text =  Deoarece NADPH este cofactor nu numai pentru aldozoreductază ci și pentru glutation reductază și NO sintetază , deficiența de NADPH ar fi responsabilă de scăderea glutationului redus ( GSH ) și total , precum și de amplificarea stresului oxidativ observate în retină și nervii periferici la pacienții diabetici .
 1	Deoarece	deoarece	SCONJ	Csssp	Polarity=Neg	4	mark	_	O
 2	NADPH	NADPH	NOUN	Yn	Abbr=Yes	4	nsubj	_	B-CHEM
@@ -13885,7 +13885,7 @@
 48	diabetici	diabetic	ADJ	Afpmp-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	47	amod	_	O
 49	.	.	PUNCT	PERIOD	_	23	punct	_	O
 
-# sent_id = dev-382
+# sent_id = dev-381
 # text =  Din aceste considerente , la care pot fi adăugate și altele , conceptul deficienței NADPH mediate de aldozoreductază în diabet rămâne un subiect de controversă .
 1	Din	din	ADP	Spsa	AdpType=Prep|Case=Acc	3	case	_	O
 2	aceste	acest	DET	Dd3fpr---e	Case=Nom|Gender=Fem|Number=Plur|Person=3|Position=Prenom|PronType=Dem	3	det	_	O
@@ -13914,7 +13914,7 @@
 25	controversă	controversă	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	23	nmod	_	O
 26	.	.	PUNCT	PERIOD	_	21	punct	_	O
 
-# sent_id = dev-383
+# sent_id = dev-382
 # text =  Alterarea metabolismului eicosanoizilor este și ea implicată în patogenia complicațiilor cronice ale DZ , inclusiv în neuropatia diabetică ( 14 , 22 ) .
 1	Alterarea	alterare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	O
 2	metabolismului	metabolism	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	O
@@ -13941,7 +13941,7 @@
 23	)	)	PUNCT	RPAR	_	20	punct	_	O
 24	.	.	PUNCT	PERIOD	_	7	punct	_	O
 
-# sent_id = dev-384
+# sent_id = dev-383
 # text =  Zaharidele cu proprietăți reducătoare cum este glucoza , reacționează neenzimatic cu grupările amino ale proteinelor ( dar și ale lipidelor și acizilor nucleici ) în două faze , proces cunoscut și sub denumirea de reacție Maillard ( 5 , 20 ) .
 1	Zaharidele	zaharidă	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	B-CHEM
 2	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	3	case	_	O
@@ -13986,7 +13986,7 @@
 41	)	)	PUNCT	RPAR	_	38	punct	_	O
 42	.	.	PUNCT	PERIOD	_	9	punct	_	O
 
-# sent_id = dev-385
+# sent_id = dev-384
 # text =  Glioxalul se formează prin autooxidarea glucozei și a lipidelor / acizilor grași polinesaturați catalizată de metale .
 1	Glioxalul	glioxal	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj:pass	_	B-CHEM
 2	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	3	expl:pv	_	O
@@ -14006,7 +14006,7 @@
 16	metale	metal	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	14	nmod:agent	_	O
 17	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-386
+# sent_id = dev-385
 # text =  Din toți acești intermediari rezultă AGEs endogeni în prezența oxigenului ( carboximetil lizina , pentozidina ) sau în absența acestuia ( piralina , MOLD , DOLD ) .
 1	Din	din	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	O
 2	toți	tot	DET	Di3mpr	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Ind	4	det	_	O
@@ -14037,7 +14037,7 @@
 27	)	)	PUNCT	RPAR	_	22	punct	_	O
 28	.	.	PUNCT	PERIOD	_	5	punct	_	O
 
-# sent_id = dev-387
+# sent_id = dev-386
 # text =  Receptorii din a doua categorie aparțin superfamiliei IG și au acțiuni de scavanger și semnalizare intercelulară .
 1	Receptorii	receptor	NOUN	Ncmpry	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	B-CHEM
 2	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	5	case	_	O
@@ -14057,7 +14057,7 @@
 16	intercelulară	intercelular	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	O
 17	.	.	PUNCT	PERIOD	_	6	punct	_	O
 
-# sent_id = dev-388
+# sent_id = dev-387
 # text =  S- a demonstrat pe studii in vitro că AGEs diminuă în general acțiunea NO , probabil prin creșterea cantitativă a radicalilor liberi indusă de glucoză , și blochează efectul antiproliferativ al NO ( 14 ) .
 1	S-	sine	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	3	expl:pv	_	O
 2	a	avea	AUX	Va--3s	Number=Sing|Person=3	3	aux	_	O
@@ -14096,7 +14096,7 @@
 35	)	)	PUNCT	RPAR	_	34	punct	_	O
 36	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-389
+# sent_id = dev-388
 # text =  Astfel , autooxidarea formei enediol a glucozei conduce la apariția radicalului anion enediol , ce trece în cetoaldehide , din care se naște anionul superoxid , apoi peroxidul de hidrogen și , în final , radicalul hidroxil .
 1	Astfel	astfel	ADV	Rgp	Degree=Pos	8	advmod	_	O
 2	,	,	PUNCT	COMMA	_	1	punct	_	O
@@ -14137,7 +14137,7 @@
 37	hidroxil	hidroxil	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	28	conj	_	I-CHEM
 38	.	.	PUNCT	PERIOD	_	8	punct	_	O
 
-# sent_id = dev-390
+# sent_id = dev-389
 # text =  Structura primară a PKC este reprezentată de un singur lanț polipeptidic care este divizat în 4 regiuni constante ( C1 – C4 ) separate de 5 regiuni variabile ( V1 – V5 ) .
 1	Structura	structură	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj:pass	_	O
 2	primară	primar	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	O
@@ -14174,7 +14174,7 @@
 33	)	)	PUNCT	RPAR	_	30	punct	_	O
 34	.	.	PUNCT	PERIOD	_	6	punct	_	O
 
-# sent_id = dev-391
+# sent_id = dev-390
 # text =  Rezultatele sunt contradictorii dar ar putea fi explicate dacă se acceptă că diferitele izoforme PKC funcționează fie ca mediatori fie ca inhibitori ai acțiunii insulinei , în funcție de tipul de izoenzimă și de țesutul unde aceasta își exercită acțiunea .
 1	Rezultatele	rezultat	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	O
 2	sunt	fi	AUX	Vaip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	O
@@ -14218,7 +14218,7 @@
 40	acțiunea	acțiune	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	39	obj	_	O
 41	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-392
+# sent_id = dev-391
 # text =  La nivel hepatic , mușchi scheletic și țesut adipos activarea PKC este principala verigă biochimică de legătură între tulburările metabolismului lipidic , aportul excesiv de lipide sau fructoză și insulinorezistență .
 1	La	la	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	O
 2	nivel	nivel	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	O
@@ -14252,7 +14252,7 @@
 30	insulinorezistență	insulinorezistență	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	28	conj	_	B-DISO
 31	.	.	PUNCT	PERIOD	_	14	punct	_	O
 
-# sent_id = dev-393
+# sent_id = dev-392
 # text =  IGF-IIR leagă IGFI și manozo-6-fosfatul și are rol în transferul enzimelor lizozomale .
 1	IGF-IIR	IGF-IIR	NOUN	Yn	Abbr=Yes	2	nsubj	_	B-CHEM
 2	leagă	lega	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
@@ -14268,7 +14268,7 @@
 12	lizozomale	lizozomal	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	I-CHEM
 13	.	.	PUNCT	PERIOD	_	2	punct	_	O
 
-# sent_id = dev-394
+# sent_id = dev-393
 # text =  La nivel renal , majoritatea studiilor in vivo ( 8 ) dovedesc creșterea expresiei ARNm specific izoformei TGF-&b.beta;1 la  nivel glomerular și al tubului proximal , atât în condițiile diabetului recent cât și al celui vechi .
 1	La	la	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	O
 2	nivel	nivel	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	O
@@ -14308,7 +14308,7 @@
 36	vechi	vechi	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	O
 37	.	.	PUNCT	PERIOD	_	12	punct	_	O
 
-# sent_id = dev-395
+# sent_id = dev-394
 # text =  Receptorii VEGFs sunt denumiți și Flt sau Flk1 și au activitate tirozin-kinazică ( 8 ) .
 1	Receptorii	receptor	NOUN	Ncmpry	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	B-CHEM
 2	VEGFs	VEGFs	NOUN	Yn	Abbr=Yes	1	nmod	_	I-CHEM
@@ -14327,7 +14327,7 @@
 15	)	)	PUNCT	RPAR	_	14	punct	_	O
 16	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
-# sent_id = dev-396
+# sent_id = dev-395
 # text =  FGF bazic ( bFGF sau FGF2 ) este localizat în matricea extracelulară și se leagă de reziduurile de heparan sulfat din membrana bazală ducând la acumularea de glicozaminoglicani și contribuind astfel esențial la stabilizarea membranei bazale .
 1	FGF	FGF	NOUN	Yn	Abbr=Yes	9	nsubj:pass	_	B-CHEM
 2	bazic	bazic	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	I-CHEM
@@ -14367,7 +14367,7 @@
 36	bazale	bazal	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	I-ANAT
 37	.	.	PUNCT	PERIOD	_	9	punct	_	O
 
-# sent_id = dev-397
+# sent_id = dev-396
 # text =  Plachetele eliberează și un factor de creștere endotelială ( platelet-derived endothelial cell growth factor – PDECGF ) cu activitate fosforilazică , acționând ca factor de creștere și factor chemotactic pentru celulele endoteliale ( 22 ) .
 1	Plachetele	plachetă	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	nsubj	_	B-CHEM
 2	eliberează	elibera	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
@@ -14406,7 +14406,7 @@
 35	)	)	PUNCT	RPAR	_	34	punct	_	O
 36	.	.	PUNCT	PERIOD	_	2	punct	_	O
 
-# sent_id = dev-398
+# sent_id = dev-397
 # text =  Gradul extensiei acestor depozite lipidice se asociază cu severitatea hiperlipemiei și a leziunilor retiniene și poate duce la orbire , mai ales dacă sunt localizate în centrul maculei .
 1	Gradul	grad	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	O
 2	extensiei	extensie	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	O
@@ -14438,7 +14438,7 @@
 28	maculei	maculă	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	B-ANAT
 29	.	.	PUNCT	PERIOD	_	7	punct	_	O
 
-# sent_id = dev-399
+# sent_id = dev-398
 # text =  Ischemia este factorul patogenic esențial pentru formarea de neovase .
 1	Ischemia	ischemie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	B-DISO
 2	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	O
@@ -14451,7 +14451,7 @@
 9	neovase	neovas	NOUN	Ncfprn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	B-ANAT
 10	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-400
+# sent_id = dev-399
 # text =  Consecutiv , se produc deformări ale retinei care pot merge până la dezlipire de retină și rupturi vasculare cu hemoragii care pot fi localizate preretinian sau în vitros .
 1	Consecutiv	consecutiv	ADV	Rgp	Degree=Pos	4	advmod	_	O
 2	,	,	PUNCT	COMMA	_	1	punct	_	O
@@ -14483,7 +14483,7 @@
 28	vitros	vitros	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	27	fixed	_	O
 29	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
-# sent_id = dev-401
+# sent_id = dev-400
 # text =  În ceea ce privește rolul HTA , UKPDS arată că tratamentul intensiv antihipertensiv determină o reducere cu 37% a complicațiilor microvasculare iar studii anterioare ( 45 ) sugerează un rol benefic al administrării IEC chiar la normotensivi , încetinind rata de progresie a RD .
 1	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	5	case	_	O
 2	ceea	acela	PRON	Pd3fsr	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	fixed	_	O
@@ -14531,7 +14531,7 @@
 44	RD	RD	NOUN	Yn	Abbr=Yes	42	nmod	_	B-DISO
 45	.	.	PUNCT	PERIOD	_	9	punct	_	O
 
-# sent_id = dev-402
+# sent_id = dev-401
 # text =  Pe de altă parte , studii recente sugerează implicarea celulelor neurogliale retiniene în fazele precoce ale retinopatiei diabetice .
 1	Pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	8	advmod	_	O
 2	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	1	fixed	_	O
@@ -14553,7 +14553,7 @@
 18	diabetice	diabetic	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	I-DISO
 19	.	.	PUNCT	PERIOD	_	8	punct	_	O
 
-# sent_id = dev-403
+# sent_id = dev-402
 # text =  În diabetul experimental , acest pattern este detectabil în primele trei luni de la inducerea diabetului ( 14 ) .
 1	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	O
 2	diabetul	diabet	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	B-DISO
@@ -14576,7 +14576,7 @@
 19	)	)	PUNCT	RPAR	_	18	punct	_	O
 20	.	.	PUNCT	PERIOD	_	8	punct	_	O
 
-# sent_id = dev-404
+# sent_id = dev-403
 # text =  Deseori , pacientul diabetic cu microalbuminurie prezintă o serie de tulburări asociate care constituie sindromul microalbuminuric ( 14 ) .
 1	Deseori	deseori	ADV	Rgp	Degree=Pos	7	advmod	_	O
 2	,	,	PUNCT	COMMA	_	1	punct	_	O
@@ -14599,7 +14599,7 @@
 19	)	)	PUNCT	RPAR	_	18	punct	_	O
 20	.	.	PUNCT	PERIOD	_	7	punct	_	O
 
-# sent_id = dev-405
+# sent_id = dev-404
 # text =  Proteinuria neselectivă se datorează în special apariției în peretele capilarului glomerular a unor pori mari , neselectivi ( 14 ) .
 1	Proteinuria	proteinurie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	B-DISO
 2	neselectivă	neselectiv	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	I-DISO
@@ -14623,7 +14623,7 @@
 20	)	)	PUNCT	RPAR	_	19	punct	_	O
 21	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
-# sent_id = dev-406
+# sent_id = dev-405
 # text =  Toate aceste procese conduc la creșterea depozitelor de proteine extracelulare la nivelul mezangiului , interferă cu clearance mezangial al diverselor macromolecule și alterează funcția macrofagelor , contribuind astfel la expansiunea mezangială și ocluzia capilarelor glomerulare .
 1	Toate	tot	DET	Di3fpr	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Ind	3	det	_	O
 2	aceste	acest	DET	Dd3fpr---e	Case=Nom|Gender=Fem|Number=Plur|Person=3|Position=Prenom|PronType=Dem	3	det	_	O
@@ -14662,7 +14662,7 @@
 35	glomerulare	glomerular	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	I-DISO
 36	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
-# sent_id = dev-407
+# sent_id = dev-406
 # text =  Totodată , celulele mezangiale expuse la concentrații mari de glucoză sintetizează mai puțin heparan sulfat ( 22 ) , ceea ce teoretic contribuie la scăderea încărcării electrice negative a membranei bazale și amplifică proteinuria .
 1	Totodată	totodată	ADV	Rgp	Degree=Pos	11	advmod	_	O
 2	,	,	PUNCT	COMMA	_	1	punct	_	O
@@ -14700,7 +14700,7 @@
 34	proteinuria	proteinurie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	33	obj	_	B-DISO
 35	.	.	PUNCT	PERIOD	_	11	punct	_	O
 
-# sent_id = dev-408
+# sent_id = dev-407
 # text =  Îngroșarea membranei bazale glomerulare se datorează cel mai probabil atât creșterii sintezei colagenului membranar cât și scăderii degradării acestuia .
 1	Îngroșarea	îngroșare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	O
 2	membranei	membrană	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	B-ANAT
@@ -14723,7 +14723,7 @@
 19	acestuia	acesta	PRON	Pd3mso	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nmod	_	O
 20	.	.	PUNCT	PERIOD	_	6	punct	_	O
 
-# sent_id = dev-409
+# sent_id = dev-408
 # text =  Anomaliile fluxului sanguin la nivelul microcirculației pot fi un factor etiologic important în apariția complicațiilor cronice diabetice .
 1	Anomaliile	anomalie	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	nsubj	_	B-DISO
 2	fluxului	flux	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	I-DISO
@@ -14744,7 +14744,7 @@
 17	diabetice	diabetic	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	I-DISO
 18	.	.	PUNCT	PERIOD	_	7	punct	_	O
 
-# sent_id = dev-410
+# sent_id = dev-409
 # text =  Astfel , numeroase studii pe animale cu diabet spontan sau indus au evidențiat o creștere a GFR per nefron și a fluxului capilar glomerular în condițiile unei rezistențe vasculare intrarenale reduse ( 22 ) .
 1	Astfel	astfel	ADV	Rgp	Degree=Pos	13	advmod	_	O
 2	,	,	PUNCT	COMMA	_	1	punct	_	O
@@ -14782,7 +14782,7 @@
 34	)	)	PUNCT	RPAR	_	33	punct	_	O
 35	.	.	PUNCT	PERIOD	_	13	punct	_	O
 
-# sent_id = dev-411
+# sent_id = dev-410
 # text =  În final , rezultă expansiunea mezangială , scleroza interstițială , îngroșarea membranei bazale glomerulare și glomeruloscleroza .
 1	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	4	advmod	_	O
 2	final	final	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	1	fixed	_	O
@@ -14802,7 +14802,7 @@
 16	glomeruloscleroza	glomeruloscleroză	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	B-DISO
 17	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
-# sent_id = dev-412
+# sent_id = dev-411
 # text =  Astfel , există studii care atestă faptul că microalbuminuria se asociază ( doar statistic , nu și cauzal direct ) cu insulinorezistența atât la pacienții cu diabet zaharat de tip 1 cât și la cei de tip 2 și că scăderea sensibilității la insulină nu este secundară microalbuminuriei .
 1	Astfel	astfel	ADV	Rgp	Degree=Pos	3	advmod	_	O
 2	,	,	PUNCT	COMMA	_	1	punct	_	O
@@ -14854,7 +14854,7 @@
 48	microalbuminuriei	microalbuminurie	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	47	iobj	_	B-DISO
 49	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-413
+# sent_id = dev-412
 # text =  Importanța factorului genetic este sugerată de evidențierea unei corelații semnificative între activitatea contra-transportorului la diabeticii cu nefropatie și părinții acestora și este confirmată de existența unei asocieri strânse între activitățile acestuia la gemenii monovitelini diabetici ( 14 , 22 ) .
 1	Importanța	importanță	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj:pass	_	O
 2	factorului	factor	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	O
@@ -14898,7 +14898,7 @@
 40	)	)	PUNCT	RPAR	_	37	punct	_	O
 41	.	.	PUNCT	PERIOD	_	5	punct	_	O
 
-# sent_id = dev-414
+# sent_id = dev-413
 # text =  Concentrațiile crescute ale glucozei în mediul de cultură par să amplifice diferențele intrinseci existente între pacienții diabetici cu și fără nefropatie în ceea ce privește turnover și activitatea ( și așa crescute ) transportorului sodiu-hidrogen .
 1	Concentrațiile	concentrație	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	O
 2	crescute	crescut	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	O
@@ -14937,7 +14937,7 @@
 35	sodiu-hidrogen	sodiu-hidrogen	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	34	amod	_	B-CHEM
 36	.	.	PUNCT	PERIOD	_	9	punct	_	O
 
-# sent_id = dev-415
+# sent_id = dev-414
 # text =  La unele grupe de pacienți cu neuropatie diabetică , mai ales la cei cu neuropatie proximală sau cu afectare motorie predominantă , se pare că intervine și un mecanism autoimun ( 14 ) .
 1	La	la	ADP	Spsa	AdpType=Prep|Case=Acc	3	case	_	O
 2	unele	un	DET	Di3fpr---e	Case=Nom|Gender=Fem|Number=Plur|Person=3|Position=Prenom|PronType=Ind	3	det	_	O
@@ -14974,7 +14974,7 @@
 33	)	)	PUNCT	RPAR	_	32	punct	_	O
 34	.	.	PUNCT	PERIOD	_	24	punct	_	O
 
-# sent_id = dev-416
+# sent_id = dev-415
 # text =  Implicarea plexurilor mienterice nu este încă foarte clară , și nici a diverselor peptide intestinale ( 22 ) .
 1	Implicarea	implicare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	O
 2	plexurilor	plex	NOUN	Ncfpoy	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	B-ANAT
@@ -14996,7 +14996,7 @@
 18	)	)	PUNCT	RPAR	_	17	punct	_	O
 19	.	.	PUNCT	PERIOD	_	8	punct	_	O
 
-# sent_id = dev-417
+# sent_id = dev-416
 # text =  Hipoglicemiile nesesizabile apar în cazul episoadelor hipoglicemice repetate ( de exemplu în cazul unui control metabolic prea strict ) .
 1	Hipoglicemiile	hipoglicemie	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	B-DISO
 2	nesesizabile	nesesizabil	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	O
@@ -15019,7 +15019,7 @@
 19	)	)	PUNCT	RPAR	_	13	punct	_	O
 20	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-418
+# sent_id = dev-417
 # text =  Acest fapt se datorează , probabil , anomaliilor de la nivelul microcirculației coronariene ( microangiopatiei diabetice ) .
 1	Acest	acest	DET	Dd3msr---e	Case=Nom|Gender=Masc|Number=Sing|Person=3|Position=Prenom|PronType=Dem	2	det	_	O
 2	fapt	fapt	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj:pass	_	O
@@ -15040,7 +15040,7 @@
 17	)	)	PUNCT	RPAR	_	15	punct	_	O
 18	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
-# sent_id = dev-419
+# sent_id = dev-418
 # text =  Microcirculația coronariană suferă atât modificări funcționale , cât și modificări anatomice , structurale , care sunt similare cu cele întâlnite în microcirculația din alte organe țintă afectate de diabetul zaharat .
 1	Microcirculația	microcirculație	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	B-ANAT
 2	coronariană	coronarian	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	I-ANAT
@@ -15074,7 +15074,7 @@
 30	zaharat	zaharat	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	I-DISO
 31	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-420
+# sent_id = dev-419
 # text =  Implicarea radicalilor liberi de oxigen , produșilor finali de glicozilare avansată și a sistemului proteinkinazelor în disfuncția endotelială coronariană pare a nu avea particularități specifice și a fost prezentată în partea generală .
 1	Implicarea	implicare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	nsubj	_	O
 2	radicalilor	radical	NOUN	Ncmpoy	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	B-CHEM
@@ -15110,7 +15110,7 @@
 32	generală	general	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	O
 33	.	.	PUNCT	PERIOD	_	20	punct	_	O
 
-# sent_id = dev-421
+# sent_id = dev-420
 # text =  Insuficiența cardiacă la pacientul diabetic are drept cauze ateroscleroza coronariană ( macroangiopatia diabetică ) , hipertensiunea arterială ( la peste o treime din cazuri ) și , nu în ultimul rând , o afectare specifică miocardică , așa- numita cardiomiopatie diabetică .
 1	Insuficiența	insuficiență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	B-DISO
 2	cardiacă	cardiac	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	I-DISO
@@ -15155,7 +15155,7 @@
 41	diabetică	diabetic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	I-DISO
 42	.	.	PUNCT	PERIOD	_	6	punct	_	O
 
-# sent_id = dev-422
+# sent_id = dev-421
 # text =  Se pare că o importanță foarte mare o au defectele în transportul transmembranar al calciului și ale metabolismului acizilor grași , care s- a dovedit că determină hipertrofie miocitară și fibroză miocardică ( 22 ) .
 1	Se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	2	expl:pv	_	O
 2	pare	părea	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
@@ -15194,7 +15194,7 @@
 35	)	)	PUNCT	RPAR	_	34	punct	_	O
 36	.	.	PUNCT	PERIOD	_	2	punct	_	O
 
-# sent_id = dev-423
+# sent_id = dev-422
 # text =  Se sugerează că leziunea s- ar datora modificărilor turn-over-urului și creșterii legăturilor încrucișate ale colagenului periarticular sau alterărilor fibrelor de elastină și ale sintezei fibronectinei .
 1	Se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	2	expl:pv	_	O
 2	sugerează	sugera	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
@@ -15223,7 +15223,7 @@
 25	fibronectinei	fibronectină	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	B-CHEM
 26	.	.	PUNCT	PERIOD	_	2	punct	_	O
 
-# sent_id = dev-424
+# sent_id = dev-423
 # text =  Eritemul diabetic deseori mimează erizipelul și de aceea este denumit și eritem pseudo-erizipeloid .
 1	Eritemul	eritem	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	B-DISO
 2	diabetic	diabetic	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	I-DISO
@@ -15240,7 +15240,7 @@
 13	pseudo-erizipeloid	pseudo-erizipeloid	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	advmod	_	I-DISO
 14	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
-# sent_id = dev-425
+# sent_id = dev-424
 # text =  Neuropatia senzitivă reduce percepția dureroasă , termică și vibratorie și astfel leziunea neuropată se produce în special din cauza pierderii senzației dureroase .
 1	Neuropatia	neuropatie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	B-DISO
 2	senzitivă	senzitiv	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	I-DISO
@@ -15266,7 +15266,7 @@
 22	dureroase	dureros	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	I-DISO
 23	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-426
+# sent_id = dev-425
 # text =  Pierderea sensibilității proprioceptive determină vicii de postură ale piciorului care duc la suprasarcină presională și la apariția leziunilor în zone de hiperpresiune .
 1	Pierderea	pierdere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	B-DISO
 2	sensibilității	sensibilitate	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	I-DISO
@@ -15292,7 +15292,7 @@
 22	hiperpresiune	hiperpresiune	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	B-DISO
 23	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
-# sent_id = dev-427
+# sent_id = dev-426
 # text =  S- a demonstrat de asemenea că predomină pierderea de os trabecular .
 1	S-	sine	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	3	expl:pv	_	O
 2	a	avea	AUX	Va--3s	Number=Sing|Person=3	3	aux	_	O
@@ -15307,7 +15307,7 @@
 11	trabecular	trabecular	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	I-ANAT
 12	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-428
+# sent_id = dev-427
 # text =  Un factor patogenic important este și deformarea în equin a piciorului .
 1	Un	un	DET	Timsr	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	O
 2	factor	factor	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	O
@@ -15322,7 +15322,7 @@
 11	piciorului	picior	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	B-ANAT
 12	.	.	PUNCT	PERIOD	_	7	punct	_	O
 
-# sent_id = dev-429
+# sent_id = dev-428
 # text =  Aceste diferențe se explică prin incidența mai mare a tulburărilor de menstruație și a riscului crescut de boală inflamatorie pelvină la femeia diabetică .
 1	Aceste	acest	DET	Dd3fpr---e	Case=Nom|Gender=Fem|Number=Plur|Person=3|Position=Prenom|PronType=Dem	2	det	_	O
 2	diferențe	diferență	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	4	nsubj:pass	_	O
@@ -15349,7 +15349,7 @@
 23	diabetică	diabetic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	O
 24	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
-# sent_id = dev-430
+# sent_id = dev-429
 # text =  Astfel , acizii grași constituie substrate și inductori ai activității citocromului P 450 .
 1	Astfel	astfel	ADV	Rgp	Degree=Pos	5	advmod	_	O
 2	,	,	PUNCT	COMMA	_	1	punct	_	O
@@ -15366,7 +15366,7 @@
 13	450	450	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	12	nummod	_	O
 14	.	.	PUNCT	PERIOD	_	5	punct	_	O
 
-# sent_id = dev-431
+# sent_id = dev-430
 # text =  În acest sens există un studiu relativ recent asupra rolului proteinei de transfer microzomial al trigliceridelor ( MTP ) în apariția hepatitei steatozice la pacienții cu diabet zaharat tip 2 .
 1	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	3	case	_	O
 2	acest	acest	DET	Dd3msr---e	Case=Nom|Gender=Masc|Number=Sing|Person=3|Position=Prenom|PronType=Dem	3	det	_	O
@@ -15400,7 +15400,7 @@
 30	2	2	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	29	nummod	_	I-DISO
 31	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
-# sent_id = dev-432
+# sent_id = dev-431
 # text =  Agregarea intrafamilială a cazurilor de T1DM ar putea fi explicată , cel puțin teoretic , nu numai prin existența unui teren genetic predispozant ci și prin faptul că familiile sunt expuse acelorași factori de mediu .
 1	Agregarea	agregare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	O
 2	intrafamilială	intrafamilial	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	O
@@ -15439,7 +15439,7 @@
 35	mediu	mediu	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	33	nmod	_	O
 36	.	.	PUNCT	PERIOD	_	8	punct	_	O
 
-# sent_id = dev-433
+# sent_id = dev-432
 # text =  IDDM1 - Regiunea HLA de pe cromozomul 6p21 [ 17 , 65 , 83 ] , ulterior localizat la genele DRB1 , DQB1 și DQA1 [ 81 , 90 , 92 ] și respectiv IDDM2 – Regiunea genei insulinei de pe cromozomul 11p15 [ 6 , 40 ] , ulterior localizată la nivelul minisatelitului genei insulinei - 5 ’ INS-VNTR [ 7 ] .
 1	IDDM1	IDDM1	NOUN	Yn	Abbr=Yes	3	parataxis	_	B-CHEM
 2	-	-	PUNCT	DASH	_	1	punct	_	O
@@ -15506,7 +15506,7 @@
 63	]	]	PUNCT	RSQR	_	62	punct	_	O
 64	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-434
+# sent_id = dev-433
 # text =  Metoda se bazează pe existența microsateliților ( markerilor ) care sunt secvențe DNA repetitive ale unui bloc de baze azotate ( di , tri sau tetranucleotid ) .
 1	Metoda	metodă	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	O
 2	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	3	expl:pv	_	O
@@ -15537,7 +15537,7 @@
 27	)	)	PUNCT	RPAR	_	22	punct	_	O
 28	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-435
+# sent_id = dev-434
 # text =  Secvența de baze azotate a microsateliților precum și localizarea lor pe diferiții cromozomi au devenit accesibile în urma proiectului genomului uman .
 1	Secvența	secvență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	O
 2	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	3	case	_	O
@@ -15562,7 +15562,7 @@
 21	uman	uman	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	O
 22	.	.	PUNCT	PERIOD	_	15	punct	_	O
 
-# sent_id = dev-436
+# sent_id = dev-435
 # text =  Screening întregului genom se bazează pe alegerea unor microsateliți repartizați în mod uniform pe toți cromozomii și testarea pe un lot de familii a tuturor acestora .
 1	Screening	screening	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	O
 2	întregului	întreg	ADJ	Afpmsoy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	O
@@ -15592,7 +15592,7 @@
 26	acestora	acesta	PRON	Pd3-po	Case=Gen|Number=Plur|Person=3|PronType=Dem	23	nmod	_	O
 27	.	.	PUNCT	PERIOD	_	5	punct	_	O
 
-# sent_id = dev-437
+# sent_id = dev-436
 # text =  Atât moleculele HLA de clasa I cât și HLA de clasa a II au rolul de a prezenta antigenele către limfocitele T Limfocitele T citotoxice ( CD8 + ) recunosc antigenele prezentate legat de moleculele HLA I iar limfocitele T helper ( CD4 + ) recunosc antigenele prezentate legat de moleculele HLA clasa a II .
 1	Atât	atât	ADV	Rgp	Degree=Pos	2	advmod	_	O
 2	moleculele	moleculă	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	nsubj	_	B-CHEM
@@ -15651,7 +15651,7 @@
 55	II	II	NUM	Mo-s-r	Number=Sing|NumForm=Roman|NumType=Ord	53	nummod	_	O
 56	.	.	PUNCT	PERIOD	_	14	punct	_	O
 
-# sent_id = dev-438
+# sent_id = dev-437
 # text =  S- a postulat că substituția unui aminoacid în aceste poziții cheie ale moleculei HLA-DQ determină modificări conformaționale ale pungii de legare a antigenului și , în acest fel , influențează afinitatea moleculei DQ față de peptidele diabetogene [ 95 ] .
 1	S-	sine	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	3	expl:pv	_	O
 2	a	avea	AUX	Va--3s	Number=Sing|Person=3	3	aux	_	O
@@ -15695,7 +15695,7 @@
 40	]	]	PUNCT	RSQR	_	39	punct	_	O
 41	.	.	PUNCT	PERIOD	_	3	punct	_	O
 
-# sent_id = dev-439
+# sent_id = dev-438
 # text =  Pe un grup cazuri , martori neafectați și de familii cu diabet din Franța , USA și Africa de Nord s- a dovedit că la subiecții DR4 + există o genă ( grup de gene ) asociate cu diabetul de tip 1 în regiunea de 19 kbp de pe cromozomul 11 care cuprinde gena insulinei și a factorului de creștere insulinic ( IGF = Insulin Growth Factor ) [ 43 ] .
 1	Pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	3	case	_	O
 2	un	un	DET	Timsr	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	3	det	_	O
@@ -15770,7 +15770,7 @@
 71	]	]	PUNCT	RSQR	_	70	punct	_	O
 72	.	.	PUNCT	PERIOD	_	23	punct	_	O
 
-# sent_id = dev-440
+# sent_id = dev-439
 # text =  În funcție de numărul de repetiții , minisatelitul genei insulinei ( minisatelit este denumirea echivalentă termenului de VNTR ) poate prezenta trei clase de alele .
 1	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	O
 2	funcție	funcție	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	20	obl	_	O
@@ -15799,7 +15799,7 @@
 25	alele	alelă	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	23	nmod	_	O
 26	.	.	PUNCT	PERIOD	_	20	punct	_	O
 
-# sent_id = dev-441
+# sent_id = dev-440
 # text =  Astfel , gena HRAS1 ( care codifică protooncogena H-ras ) și care determină susceptibilitatea genetică pentru diferite cancere se află sub influența unui polimorfism VNTR aflat în vecinătate [ 47 ] .
 1	Astfel	astfel	ADV	Rgp	Degree=Pos	20	advmod	_	O
 2	,	,	PUNCT	COMMA	_	1	punct	_	O
@@ -15834,7 +15834,7 @@
 31	]	]	PUNCT	RSQR	_	30	punct	_	O
 32	.	.	PUNCT	PERIOD	_	20	punct	_	O
 
-# sent_id = dev-442
+# sent_id = dev-441
 # text =  Totuși trebuie remarcat că asocierea nu a fost confirmată pentru toate grupurile etnice și nu există încă dovada certă a localizării IDDM12 la nivelul genei CTLA-4 , fiind posibil ca polimorfismele acestei gene descrise ca asociate diabetului să fie doar markerii asocierii cu un locus de susceptibilitate din imediata vecinătate .
 1	Totuși	totuși	ADV	Rgp	Degree=Pos	2	advmod	_	O
 2	trebuie	trebui	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
@@ -15888,7 +15888,7 @@
 50	vecinătate	vecinătate	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	45	nmod	_	O
 51	.	.	PUNCT	PERIOD	_	2	punct	_	O
 
-# sent_id = dev-443
+# sent_id = dev-442
 # text =  Totuși datele recente par să susțină faptul că CTLA-4 rămâne în continuare cel mai puternic candidat pentru locusul IDDM12 [ 53 ] .
 1	Totuși	totuși	ADV	Rgp	Degree=Pos	4	advmod	_	O
 2	datele	dată	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	O
@@ -15914,7 +15914,7 @@
 22	]	]	PUNCT	RSQR	_	21	punct	_	O
 23	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
-# sent_id = dev-444
+# sent_id = dev-443
 # text =  Vitamina D își exercită efectele metabolice și imunomodulatorii prin intermediul receptorului său specific ( Vitamin D Receptor = VDR ) .
 1	Vitamina	vitamină	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	B-CHEM
 2	D	D	NOUN	Ncm--n	Definite=Ind|Gender=Masc	1	nmod	_	B-CHEM
