@@ -20,6 +20,8 @@ We are grateful to the following texts providers: http://federatiaromanadiabet.r
 
 ## References
 
+Mititelu, V.B. and Mitrofan, M., The Romanian Medical Treebank - SiMoNERo ROMANIAN MEDICAL TREEBANK-SIMONERO. Proceedings of the The 15th Edition of the International Conference on Linguistic Resources and Tools for Natural Language Processing – ConsILR-2020ISSN 1843-911X, p.7-16, 2020.
+
 Maria Mitrofan, Verginica Barbu Mititelu, Grigorina Mitrofan, MoNERo: a Biomedical Gold Standard Corpus for the Romanian Language, in Proceedings of the BioNLP workshop, Florence, Italy, 1 August 2019, p. 71-79, Association for Computational Linguistics (https://www.aclweb.org/anthology/W19-5008).
 
 
