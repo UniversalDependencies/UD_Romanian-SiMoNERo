@@ -131,7 +131,7 @@
 6	vorba	vorbă	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	fixed	_	O
 7	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	O
 8	o	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	9	det	_	O
-9	combinație	combinație	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nmod:pmod	_	O
+9	combinație	combinație	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	obl:pmod	_	O
 10	între	între	ADP	Spsa	AdpType=Prep|Case=Acc	11	case	_	O
 11	genele	genă	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	O
 12	asociate	asocia	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	11	acl	_	O
@@ -159,7 +159,7 @@
 10	fi	fi	VERB	Vmnp	Tense=Pres|VerbForm=Inf	0	root	_	O
 11	vorba	vorbă	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	fixed	_	O
 12	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	13	case	_	O
-13	gene	genă	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	10	nmod:pmod	_	O
+13	gene	genă	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	10	obl:pmod	_	O
 14	asociate	asocia	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	13	amod	_	O
 15	metabolismului	metabolism	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	iobj	_	O
 16	glucidic	glucidic	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	O
@@ -172,7 +172,7 @@
 23	gene	genă	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	13	conj	_	O
 24	legate	lega	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	23	acl	_	O
 25	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	26	case	_	O
-26	mecanismul	mecanism	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	nmod:agent	_	O
+26	mecanismul	mecanism	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	obl:agent	_	O
 27	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	28	case	_	O
 28	acțiune	acțiune	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	26	nmod	_	O
 29	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det	_	O
@@ -542,7 +542,7 @@
 23	fi	fi	AUX	Vanp	Tense=Pres|VerbForm=Inf	24	aux:pass	_	O
 24	asociată	asocia	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	21	xcomp	_	O
 25	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	26	case	_	O
-26	insulinorezistența	insulinorezistență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	nmod:pmod	_	B-DISO
+26	insulinorezistența	insulinorezistență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	obl:pmod	_	B-DISO
 27	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	28	case	_	O
 28	subiecții	subiect	NOUN	Ncmpry	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	26	nmod	_	O
 29	homozigoți	homozigot	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	28	amod	_	O
@@ -890,7 +890,7 @@
 5	indusă	induce	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	3	ccomp	_	O
 6	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	O
 7	unele	un	DET	Di3fpr---e	Case=Nom|Gender=Fem|Number=Plur|Person=3|Position=Prenom|PronType=Ind	8	det	_	O
-8	tumori	tumoare	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	5	nmod:agent	_	B-DISO
+8	tumori	tumoare	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	5	obl:agent	_	B-DISO
 9	,	,	PUNCT	COMMA	_	10	punct	_	O
 10	incluzând	include	VERB	Vmg	VerbForm=Ger	8	acl	_	O
 11	tumori	tumoare	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	B-DISO
@@ -1269,7 +1269,7 @@
 14	mult	mult	ADV	Rgp	Degree=Pos	15	advmod	_	O
 15	limitată	limita	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	O
 16	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	O
-17	transportul	transport	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nmod:agent	_	O
+17	transportul	transport	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	obl:agent	_	O
 18	mai	mai	ADV	Rp	_	19	advmod	_	O
 19	dificil	dificil	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	O
 20	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	O
@@ -1316,7 +1316,7 @@
 13	fiind	fi	AUX	Vag	VerbForm=Ger	14	aux:pass	_	O
 14	dominat	domina	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	5	advcl	_	O
 15	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	O
-16	simptomele	simptom	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	nmod:agent	_	B-DISO
+16	simptomele	simptom	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	obl:agent	_	B-DISO
 17	neuroglicopenice	neuroglicopenic	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	I-DISO
 18	(	(	PUNCT	LPAR	_	19	punct	_	O
 19	tulburări	tulburare	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	16	appos	_	B-DISO
@@ -1345,7 +1345,7 @@
 13	însoțește	însoți	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
 14	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	O
 15	o	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	16	det	_	O
-16	inhibare	inhibare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	nmod:agent	_	O
+16	inhibare	inhibare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	obl:agent	_	O
 17	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	O
 18	secreției	secreție	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	O
 19	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	20	case	_	O
@@ -1454,7 +1454,7 @@
 14	,	,	PUNCT	COMMA	_	15	punct	_	O
 15	dominat	domina	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	O
 16	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	O
-17	simptomele	simptom	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	nmod:agent	_	B-DISO
+17	simptomele	simptom	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	obl:agent	_	B-DISO
 18	neuroglicopenice	neuroglicopenic	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	I-DISO
 19	.	.	PUNCT	PERIOD	_	5	punct	_	O
 
@@ -1637,7 +1637,7 @@
 13	diagnostic	diagnostic	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	O
 14	diferențial	diferențial	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	O
 15	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	O
-16	insulinomul	insulinom	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nmod:pmod	_	B-DISO
+16	insulinomul	insulinom	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	obl:pmod	_	B-DISO
 17	.	.	PUNCT	PERIOD	_	4	punct	_	O
 
 # sent_id = test-48
@@ -1685,7 +1685,7 @@
 20	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	O
 21	reprezentată	reprezenta	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	10	conj	_	O
 22	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	23	case	_	O
-23	lobulul	lobul	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nmod:agent	_	B-ANAT
+23	lobulul	lobul	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	obl:agent	_	B-ANAT
 24	portal	portal	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	23	amod	_	I-ANAT
 25	-	-	PUNCT	DASH	_	27	punct	_	O
 26	o	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	27	det	_	O
@@ -2004,7 +2004,7 @@
 29	sânge	sânge	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	27	obl	_	B-ANAT
 30	către	către	ADP	Spsa	AdpType=Prep|Case=Acc	32	case	_	O
 31	alte	alt	DET	Di3fpr---e	Case=Nom|Gender=Fem|Number=Plur|Person=3|Position=Prenom|PronType=Ind	32	det	_	O
-32	celule	celulă	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	27	nmod:agent	_	B-ANAT
+32	celule	celulă	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	27	obl:agent	_	B-ANAT
 33	.	.	PUNCT	PERIOD	_	2	punct	_	O
 
 # sent_id = test-60
@@ -2139,7 +2139,7 @@
 6	sunt	fi	AUX	Vaip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	O
 7	utilizați	utiliza	VERB	Vmp--pm	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	O
 8	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	O
-9	ficat	ficat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	7	nmod:agent	_	B-ANAT
+9	ficat	ficat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	7	obl:agent	_	B-ANAT
 10	(	(	PUNCT	LPAR	_	13	punct	_	O
 11	și	și	CCONJ	Crssp	Polarity=Pos	13	cc	_	O
 12	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	13	case	_	O
@@ -2194,7 +2194,7 @@
 7	sunt	fi	AUX	Vaip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	O
 8	conjugați	conjuga	VERB	Vmp--pm	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	O
 9	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	10	case	_	O
-10	glicocol	glicocol	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	8	nmod:pmod	_	B-CHEM
+10	glicocol	glicocol	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	8	obl:pmod	_	B-CHEM
 11	sau	sau	CCONJ	Ccssp	Polarity=Pos	12	cc	_	O
 12	taurină	taurină	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	10	conj	_	B-CHEM
 13	rezultând	rezulta	VERB	Vmg	VerbForm=Ger	8	advcl	_	O
@@ -2279,7 +2279,7 @@
 14	parte	parte	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	fixed	_	O
 15	dintr-	dintru	ADP	Spsay	AdpType=Prep|Case=Acc|Variant=Short	17	case	_	O
 16	un	un	DET	Timsr	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	17	det	_	O
-17	ciclu	ciclu	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	13	nmod:pmod	_	O
+17	ciclu	ciclu	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	13	obl:pmod	_	O
 18	(	(	PUNCT	LPAR	_	19	punct	_	O
 19	numit	numit	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	17	appos	_	O
 20	gama-glutamil	gama-glutamil	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	19	xcomp	_	O
@@ -2348,7 +2348,7 @@
 3	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	O
 4	asigurată	asigura	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	O
 5	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	O
-6	mecanisme	mecanism	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	4	nmod:agent	_	O
+6	mecanisme	mecanism	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	4	obl:agent	_	O
 7	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	O
 8	control	control	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	O
 9	multiple	multiplu	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	O
@@ -2401,7 +2401,7 @@
 22	să	să	PART	Qs	Mood=Sub	23	mark	_	O
 23	interfere	interfera	VERB	Vmsp3	Mood=Sub|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	O
 24	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	25	case	_	O
-25	acțiunea	acțiune	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nmod:pmod	_	O
+25	acțiunea	acțiune	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	obl:pmod	_	O
 26	hipoglicemiantă	hipoglicemiant	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	O
 27	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det	_	O
 28	insulinei	insulină	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	B-CHEM
@@ -2704,7 +2704,7 @@
 9	,	,	PUNCT	COMMA	_	5	punct	_	O
 10	eritem	eritem	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	1	acl	_	B-DISO
 11	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	12	case	_	O
-12	regiunea	regiune	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nmod:pmod	_	B-ANAT
+12	regiunea	regiune	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obl:pmod	_	B-ANAT
 13	genitală	genital	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	I-ANAT
 14	și	și	CCONJ	Crssp	Polarity=Pos	16	cc	_	O
 15	uneori	uneori	ADV	Rgp	Degree=Pos	16	advmod	_	O
@@ -3423,7 +3423,7 @@
 9	ECA	ECA	NOUN	Yn	Abbr=Yes	8	nmod	_	O
 10	determinată	determina	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	O
 11	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	12	case	_	O
-12	genotipul	genotip	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nmod:agent	_	O
+12	genotipul	genotip	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	obl:agent	_	O
 13	DD	DD	NOUN	Yn	Abbr=Yes	12	nmod	_	O
 14	pare	părea	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
 15	a	a	PART	Qn	PartType=Inf	17	mark	_	O
@@ -3724,7 +3724,7 @@
 24	a	avea	AUX	Va--3s	Number=Sing|Person=3	25	aux	_	O
 25	condus	conduce	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	O
 26	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	27	case	_	O
-27	ștergerea	ștergere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nmod:pmod	_	O
+27	ștergerea	ștergere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	obl:pmod	_	O
 28	proceselor	proces	NOUN	Ncfpoy	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	27	nmod	_	O
 29	podocitare	podocitar	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	O
 30	și	și	CCONJ	Crssp	Polarity=Pos	31	cc	_	O
@@ -3855,7 +3855,7 @@
 15	este	fi	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	O
 16	vorba	vorbă	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	fixed	_	O
 17	despre	despre	ADP	Spsa	AdpType=Prep|Case=Acc	18	case	_	O
-18	determinarea	determinare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nmod:pmod	_	O
+18	determinarea	determinare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	obl:pmod	_	O
 19	ascultatorică	ascultatoric	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	O
 20	repetată	repetat	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	O
 21	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	O
@@ -4047,7 +4047,7 @@
 14	susținut	susține	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	O
 15	și	și	CCONJ	Crssp	Polarity=Pos	17	advmod	_	O
 16	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	O
-17	corelațiile	corelație	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	nmod:agent	_	O
+17	corelațiile	corelație	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	obl:agent	_	O
 18	semnificative	semnificativ	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	O
 19	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	22	nsubj:pass	_	O
 20	au	avea	AUX	Va--3p	Number=Plur|Person=3|VerbForm=Fin	22	aux	_	O
@@ -4141,7 +4141,7 @@
 8	legate	legat	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	5	acl	_	O
 9	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	11	case	_	O
 10	diferite	diferit	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	O
-11	proteine	proteină	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	8	nmod:agent	_	B-CHEM
+11	proteine	proteină	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	8	obl:agent	_	B-CHEM
 12	,	,	PUNCT	COMMA	_	13	punct	_	O
 13	cum	cum	ADV	Rw	PronType=Int,Rel	11	appos	_	O
 14	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	O
@@ -4411,7 +4411,7 @@
 21	efect	efect	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	17	appos	_	O
 22	numit	numi	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	21	acl	_	O
 23	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	24	case	_	O
-24	renoprotecție	renoprotecție	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	22	nmod:agent	_	O
+24	renoprotecție	renoprotecție	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	22	obl:agent	_	O
 25	și	și	CCONJ	Crssp	Polarity=Pos	28	cc	_	O
 26	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	28	nsubj	_	O
 27	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	28	expl:pass	_	O
@@ -4726,7 +4726,7 @@
 5	influențat	influența	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	O
 6	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	O
 7	o	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	8	det	_	O
-8	multitudine	multitudine	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nmod:agent	_	O
+8	multitudine	multitudine	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	obl:agent	_	O
 9	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	10	case	_	O
 10	factori	factor	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	O
 11	genetici	genetic	ADJ	Afpmp-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	O
@@ -4817,14 +4817,14 @@
 9	coronariană	coronarian	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	I-DISO
 10	depinde	depinde	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
 11	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	12	case	_	O
-12	prognosticul	prognostic	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nmod:pmod	_	O
+12	prognosticul	prognostic	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	obl:pmod	_	O
 13	individual	individual	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	O
 14	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det	_	O
 15	pacientului	pacient	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	O
 16	determinat	determina	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	12	acl	_	O
 17	concomitent	concomitent	ADV	Rgp	Degree=Pos	16	advmod	_	O
 18	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	19	case	_	O
-19	factorii	factor	NOUN	Ncmpry	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	16	nmod:agent	_	O
+19	factorii	factor	NOUN	Ncmpry	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	16	obl:agent	_	O
 20	cardiaci	cardiac	ADJ	Afpmp-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	O
 21	și	și	CCONJ	Crssp	Polarity=Pos	22	cc	_	O
 22	noncardiaci	noncardiac	ADJ	Afpmp-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	20	conj	_	O
@@ -5077,7 +5077,7 @@
 9	)	)	PUNCT	RPAR	_	8	punct	_	O
 10	postprocedural	postprocedural	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	O
 11	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	12	case	_	O
-12	disecția	disecție	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nmod:pmod	_	B-PROC
+12	disecția	disecție	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obl:pmod	_	B-PROC
 13	vasului	vas	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	I-PROC
 14	și	și	CCONJ	Crssp	Polarity=Pos	15	cc	_	O
 15	ocluzie	ocluzie	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	conj	_	B-DISO
@@ -5221,7 +5221,7 @@
 11	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	O
 12	cert	cert	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	O
 13	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	O
-14	pacienții	pacient	NOUN	Ncmpry	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	12	nmod:pmod	_	O
+14	pacienții	pacient	NOUN	Ncmpry	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	12	obl:pmod	_	O
 15	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	O
 16	afectarea	afectare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	B-DISO
 17	coronarei	coronar	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	I-DISO
@@ -5439,7 +5439,7 @@
 17	,	,	PUNCT	COMMA	_	18	punct	_	O
 18	urmată	urma	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	6	acl	_	O
 19	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	20	case	_	O
-20	artera	arteră	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nmod:agent	_	B-ANAT
+20	artera	arteră	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	obl:agent	_	B-ANAT
 21	radială	radial	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	I-ANAT
 22	și	și	CCONJ	Crssp	Polarity=Pos	23	cc	_	O
 23	vena	venă	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	conj	_	B-ANAT
@@ -5453,7 +5453,7 @@
 31	fiziopatologică	fiziopatologic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	O
 32	ateromatoasă	ateromatos	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	29	acl	_	O
 33	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	34	case	_	O
-34	arterele	arteră	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	32	nmod:pmod	_	B-ANAT
+34	arterele	arteră	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	32	obl:pmod	_	B-ANAT
 35	coronare	coronar	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	I-ANAT
 36	(	(	PUNCT	LPAR	_	37	punct	_	O
 37	permeabilitate	permeabilitate	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	34	appos	_	O
@@ -5587,7 +5587,7 @@
 15	avantajelor	avantaj	NOUN	Ncfpoy	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	O
 16	oferite	oferi	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	15	acl	_	O
 17	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	18	case	_	O
-18	tehnica	tehnică	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nmod:agent	_	O
+18	tehnica	tehnică	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	obl:agent	_	O
 19	medicală	medical	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	O
 20	modernă	modern	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	O
 21	.	.	PUNCT	PERIOD	_	4	punct	_	O
@@ -5757,7 +5757,7 @@
 11	,	,	PUNCT	COMMA	_	12	punct	_	O
 12	urmat	urma	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	O
 13	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	O
-14	elaborarea	elaborare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nmod:agent	_	O
+14	elaborarea	elaborare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	obl:agent	_	O
 15	unei	un	DET	Tifso	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	16	det	_	O
 16	strategii	strategie	NOUN	Ncfson	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	O
 17	preoperatorii	preoperatoriu	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	O
@@ -5818,7 +5818,7 @@
 5	fi	fi	AUX	Vanp	Tense=Pres|VerbForm=Inf	6	aux:pass	_	O
 6	întrerupte	întrerupe	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	4	ccomp	_	O
 7	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	O
-8	crize	criză	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	6	nmod:agent	_	B-DISO
+8	crize	criză	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	6	obl:agent	_	B-DISO
 9	anginoase	anginos	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	I-DISO
 10	sau	sau	CCONJ	Ccssp	Polarity=Pos	11	cc	_	O
 11	IM	IM	NOUN	Yn	Abbr=Yes	8	conj	_	B-DISO
@@ -5863,7 +5863,7 @@
 4	perioperatorie	perioperatoriu	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	O
 5	depinde	depinde	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
 6	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	7	case	_	O
-7	starea	stare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nmod:pmod	_	O
+7	starea	stare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obl:pmod	_	O
 8	cordului	cord	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	B-ANAT
 9	și	și	CCONJ	Crssp	Polarity=Pos	12	cc	_	O
 10	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	O
@@ -6380,7 +6380,7 @@
 30	fiind	fi	AUX	Vag	VerbForm=Ger	31	aux:pass	_	O
 31	reprezentat	reprezenta	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	19	advcl	_	O
 32	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	33	case	_	O
-33	vasoconstricția	vasoconstricție	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	nmod:agent	_	B-DISO
+33	vasoconstricția	vasoconstricție	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	obl:agent	_	B-DISO
 34	și	și	CCONJ	Crssp	Polarity=Pos	35	cc	_	O
 35	hipoperfuzia	hipoperfuzie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	33	conj	_	B-DISO
 36	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	37	case	_	O
@@ -6405,7 +6405,7 @@
 13	și	și	CCONJ	Crssp	Polarity=Pos	14	cc	_	O
 14	depinde	depinde	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	O
 15	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	O
-16	dotarea	dotare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nmod:pmod	_	O
+16	dotarea	dotare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obl:pmod	_	O
 17	tehnică	tehnic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	O
 18	,	,	PUNCT	COMMA	_	19	punct	_	O
 19	experiența	experiență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	conj	_	O
@@ -6546,7 +6546,7 @@
 3	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	O
 4	determinat	determina	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	O
 5	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	O
-6	numărul	număr	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nmod:agent	_	O
+6	numărul	număr	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obl:agent	_	O
 7	și	și	CCONJ	Crssp	Polarity=Pos	8	cc	_	O
 8	poziția	poziție	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	conj	_	O
 9	arterelor	arteră	NOUN	Ncfpoy	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	O
@@ -6557,7 +6557,7 @@
 14	fi	fi	AUX	Vanp	Tense=Pres|VerbForm=Inf	15	aux:pass	_	O
 15	influențat	influența	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	13	ccomp	_	O
 16	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	O
-17	factori	factor	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	15	nmod:agent	_	O
+17	factori	factor	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	15	obl:agent	_	O
 18	adiacenți	adiacent	ADJ	Afpmp-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	O
 19	cum	cum	ADV	Rw	PronType=Int,Rel	17	acl	_	O
 20	ar	avea	AUX	Va--3	Person=3|VerbForm=Fin	19	aux	_	O
@@ -7718,7 +7718,7 @@
 11	hemoragie	hemoragie	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	B-DISO
 12	cauzată	cauza	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	O
 13	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	O
-14	anticoagularea	anticoagulare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nmod:agent	_	B-PROC
+14	anticoagularea	anticoagulare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	obl:agent	_	B-PROC
 15	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	O
 16	lungă	lung	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	O
 17	durată	durată	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	O
@@ -7906,7 +7906,7 @@
 4	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	O
 5	reprezentată	reprezenta	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	O
 6	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	7	case	_	O
-7	regurgitarea	regurgitare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nmod:agent	_	B-DISO
+7	regurgitarea	regurgitare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obl:agent	_	B-DISO
 8	aortică	aortic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	I-DISO
 9	periprotetică	periprotetic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	I-DISO
 10	după	după	ADP	Spsa	AdpType=Prep|Case=Acc	11	case	_	O
@@ -7931,7 +7931,7 @@
 29	semnificative	semnificativ	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	O
 30	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	32	case	_	O
 31	această	acest	DET	Dd3fsr---e	Case=Nom|Gender=Fem|Number=Sing|Person=3|Position=Prenom|PronType=Dem	32	det	_	O
-32	categorie	categorie	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	29	nmod:pmod	_	O
+32	categorie	categorie	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	29	obl:pmod	_	O
 33	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	34	case	_	O
 34	pacienți	pacient	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	32	nmod	_	O
 35	.	.	PUNCT	PERIOD	_	5	punct	_	O
@@ -8094,7 +8094,7 @@
 9	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	O
 10	echivalentă	echivalent	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	3	acl	_	O
 11	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	12	case	_	O
-12	regurgitarea	regurgitare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nmod:pmod	_	B-DISO
+12	regurgitarea	regurgitare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obl:pmod	_	B-DISO
 13	boală	boală	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	I-DISO
 14	,	,	PUNCT	COMMA	_	21	punct	_	O
 15	dar	dar	CCONJ	Ccssp	Polarity=Pos	21	cc	_	O
@@ -8138,7 +8138,7 @@
 11	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	12	expl:pv	_	O
 12	referă	referi	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	O
 13	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	O
-14	deficiența	deficiență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nmod:pmod	_	B-DISO
+14	deficiența	deficiență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	obl:pmod	_	B-DISO
 15	fibroelastică	fibroelastic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	I-DISO
 16	și	și	CCONJ	Crssp	Polarity=Pos	18	cc	_	O
 17	mai	mai	ADV	Rp	_	18	advmod	_	O
@@ -8219,7 +8219,7 @@
 3	încapsulat	încapsula	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	O
 4	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	O
 5	o	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	6	det	_	O
-6	zonă	zonă	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nmod:agent	_	O
+6	zonă	zonă	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	obl:agent	_	O
 7	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	O
 8	fibroză	fibroză	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	B-DISO
 9	,	,	PUNCT	COMMA	_	17	punct	_	O
@@ -8258,10 +8258,10 @@
 9	fiind	fi	AUX	Vag	VerbForm=Ger	10	aux:pass	_	O
 10	reglat	regla	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	3	advcl	_	O
 11	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	12	case	_	O
-12	expresia	expresie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nmod:agent	_	O
+12	expresia	expresie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obl:agent	_	O
 13	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	15	case	_	O
 14	către	către	ADP	Spsa	AdpType=Prep|Case=Acc	13	fixed	_	O
-15	valve	valvă	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	12	nmod:agent	_	B-ANAT
+15	valve	valvă	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	12	obl:agent	_	B-ANAT
 16	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	O
 17	markerilor	marker	NOUN	Ncmpoy	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	B-CHEM
 18	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	19	case	_	O
@@ -8346,7 +8346,7 @@
 24	osteoclastic	osteoclastic	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	O
 25	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	27	case	_	O
 26	către	către	ADP	Spsa	AdpType=Prep|Case=Acc	25	fixed	_	O
-27	nivelurile	nivel	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	21	nmod:agent	_	O
+27	nivelurile	nivel	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	21	obl:agent	_	O
 28	crescute	crește	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	27	amod	_	O
 29	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	30	case	_	O
 30	fosfat	fosfat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	27	nmod	_	B-CHEM
@@ -8385,7 +8385,7 @@
 3	închidere	închidere	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	O
 4	scad	scădea	VERB	Vmip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
 5	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	O
-6	reducerea	reducere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod:pmod	_	B-DISO
+6	reducerea	reducere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obl:pmod	_	B-DISO
 7	contractilității	contractilitate	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	I-DISO
 8	și	și	CCONJ	Crssp	Polarity=Pos	9	cc	_	O
 9	disincronismul	disincronism	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	conj	_	B-DISO
@@ -9001,7 +9001,7 @@
 21	o	el	PRON	Pp3fsa--------w	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Strength=Weak	22	obj	_	O
 22	diferenția	diferenția	VERB	Vmnp	Tense=Pres|VerbForm=Inf	18	acl	_	O
 23	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	24	case	_	O
-24	comorbidități	comorbiditate	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	22	nmod:pmod	_	B-DISO
+24	comorbidități	comorbiditate	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	22	obl:pmod	_	B-DISO
 25	și	și	CCONJ	Crssp	Polarity=Pos	26	cc	_	O
 26	dizabilități	dizabilitate	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	24	conj	_	B-DISO
 27	(	(	PUNCT	LPAR	_	28	punct	_	O
@@ -9095,7 +9095,7 @@
 4	sine	sine	PRON	Px3--a--------s	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Strong	1	nmod	_	O
 5	ține	ține	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
 6	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	7	case	_	O
-7	posibilitatea	posibilitate	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nmod:pmod	_	O
+7	posibilitatea	posibilitate	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obl:pmod	_	O
 8	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	O
 9	reparare	reparare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	O
 10	valvulară	valvular	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	O
@@ -9144,7 +9144,7 @@
 22	,	,	PUNCT	COMMA	_	23	punct	_	O
 23	legate	lega	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	15	acl	_	O
 24	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	25	case	_	O
-25	coexistența	coexistență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nmod:agent	_	O
+25	coexistența	coexistență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	obl:agent	_	O
 26	bolii	boală	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	B-DISO
 27	coronariene	coronarian	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	I-DISO
 28	,	,	PUNCT	COMMA	_	30	punct	_	O
@@ -9485,7 +9485,7 @@
 2	forma	formă	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	O
 3	subacută	subacut	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	O
 4	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	5	case	_	O
-5	EI	EI	NOUN	Yn	Abbr=Yes	3	nmod:agent	_	B-DISO
+5	EI	EI	NOUN	Yn	Abbr=Yes	3	obl:agent	_	B-DISO
 6	,	,	PUNCT	COMMA	_	2	punct	_	O
 7	germenele	germene	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	O
 8	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	9	expl:pv	_	O
@@ -9986,7 +9986,7 @@
 4	clinică	clinic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	O
 5	ridicată	ridicat	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	3	acl	_	O
 6	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	7	case	_	O
-7	EI	EI	NOUN	Yn	Abbr=Yes	5	nmod:agent	_	B-DISO
+7	EI	EI	NOUN	Yn	Abbr=Yes	5	obl:agent	_	B-DISO
 8	,	,	PUNCT	COMMA	_	13	punct	_	O
 9	iar	iar	ADV	Rc	_	13	cc	_	O
 10	ecocardiografia	ecocardiografie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	B-PROC
@@ -10061,7 +10061,7 @@
 16	fiind	fi	AUX	Vag	VerbForm=Ger	17	aux:pass	_	O
 17	determinați	determina	VERB	Vmp--pm	Gender=Masc|Number=Plur|VerbForm=Part	8	advcl	_	O
 18	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	19	case	_	O
-19	particularitățile	particularitate	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	17	nmod:agent	_	O
+19	particularitățile	particularitate	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	17	obl:agent	_	O
 20	bolnavului	bolnav	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	O
 21	,	,	PUNCT	COMMA	_	23	punct	_	O
 22	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	23	case	_	O
@@ -10146,7 +10146,7 @@
 26	crescut	crescut	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	O
 27	legat	lega	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	25	acl	_	O
 28	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	29	case	_	O
-29	vârsta	vârstă	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	27	nmod:agent	_	O
+29	vârsta	vârstă	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	27	obl:agent	_	O
 30	avansată	avansat	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	O
 31	și	și	CCONJ	Crssp	Polarity=Pos	33	cc	_	O
 32	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	33	case	_	O
@@ -10213,7 +10213,7 @@
 15	putea	putea	VERB	Vmnp	Tense=Pres|VerbForm=Inf	0	root	_	O
 16	beneficia	beneficia	VERB	Vmnp	Tense=Pres|VerbForm=Inf	15	ccomp	_	O
 17	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	18	case	_	O
-18	tratament	tratament	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	16	nmod:pmod	_	O
+18	tratament	tratament	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	16	obl:pmod	_	O
 19	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	20	case	_	O
 20	beta-lactamine	beta-lactamiană	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	18	nmod	_	B-CHEM
 21	timp	timp	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	16	nmod:tmod	_	O
@@ -10322,7 +10322,7 @@
 32	asociat	asocia	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	O
 33	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	35	case	_	O
 34	o	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	35	det	_	O
-35	evoluție	evoluție	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	32	nmod:pmod	_	O
+35	evoluție	evoluție	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	32	obl:pmod	_	O
 36	similară	similar	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	O
 37	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	38	det	_	O
 38	bolii	boală	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	B-DISO
@@ -10498,7 +10498,7 @@
 22	severe	sever	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	O
 23	asociate	asocia	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	20	acl	_	O
 24	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	25	case	_	O
-25	semne	semn	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	23	nmod:pmod	_	B-DISO
+25	semne	semn	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	23	obl:pmod	_	B-DISO
 26	ecocardiografice	ecocardiografic	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	I-DISO
 27	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	28	case	_	I-DISO
 28	deteriorare	deteriorare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	I-DISO
@@ -10687,7 +10687,7 @@
 11	apar	apărea	VERB	Vmip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	O
 12	legate	lega	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	11	xcomp	_	O
 13	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	O
-14	proceduri	procedură	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	12	nmod:pmod	_	O
+14	proceduri	procedură	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	12	obl:pmod	_	O
 15	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	O
 16	îngrijiri	îngrijire	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	O
 17	medicale	medical	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	O
@@ -10853,7 +10853,7 @@
 34	palpitații	palpitație	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	20	conj	_	B-DISO
 35	cauzate	cauza	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	34	acl	_	O
 36	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	37	case	_	O
-37	instalarea	instalare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	35	nmod:agent	_	O
+37	instalarea	instalare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	35	obl:agent	_	O
 38	fibrilației	fibrilație	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	37	nmod	_	B-DISO
 39	atriale	atrial	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	I-DISO
 40	(	(	PUNCT	LPAR	_	41	punct	_	O
@@ -10868,7 +10868,7 @@
 49	microemboli	microembol	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	34	nmod	_	B-DISO
 50	generați	genera	VERB	Vmp--pm	Gender=Masc|Number=Plur|VerbForm=Part	49	acl	_	O
 51	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	52	case	_	O
-52	ruperea	rupere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	50	nmod:agent	_	B-DISO
+52	ruperea	rupere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	50	obl:agent	_	B-DISO
 53	plăcilor	placă	NOUN	Ncfpoy	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	52	nmod	_	I-DISO
 54	calcare	calcar	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	53	amod	_	I-DISO
 55	,	,	PUNCT	COMMA	_	56	punct	_	O
@@ -11075,7 +11075,7 @@
 39	grevați	greva	VERB	Vmp--pm	Gender=Masc|Number=Plur|VerbForm=Part	14	xcomp	_	O
 40	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	42	case	_	O
 41	un	un	DET	Timsr	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	42	det	_	O
-42	prognostic	prognostic	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	39	nmod:agent	_	O
+42	prognostic	prognostic	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	39	obl:agent	_	O
 43	nefast	nefast	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	O
 44	după	după	ADP	Spsa	AdpType=Prep|Case=Acc	45	case	_	O
 45	protezare	protezare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	39	obl	_	B-PROC
@@ -11275,7 +11275,7 @@
 10	una	unul	PRON	Pi3fsr	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Ind	6	appos	_	O
 11	expandabilă	expandabil	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	O
 12	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	13	case	_	O
-13	balon	balon	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	11	nmod:pmod	_	O
+13	balon	balon	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	11	obl:pmod	_	O
 14	(	(	PUNCT	LPAR	_	15	punct	_	O
 15	Edwards	Edwards	PROPN	Np	_	6	appos	_	O
 16	Sapien	Sapien	PROPN	Np	_	15	nmod	_	O
@@ -11339,7 +11339,7 @@
 15	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	O
 16	determinată	determina	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	7	conj	_	O
 17	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	18	case	_	O
-18	preferința	preferință	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nmod:agent	_	O
+18	preferința	preferință	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	obl:agent	_	O
 19	individuală	individual	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	O
 20	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	O
 21	chirurgului	chirurg	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	O
@@ -11446,7 +11446,7 @@
 9	,	,	PUNCT	COMMA	_	10	punct	_	O
 10	crescând	crește	VERB	Vmg	VerbForm=Ger	8	advcl	_	O
 11	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	12	case	_	O
-12	vârstele	vârstă	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nmod:pmod	_	O
+12	vârstele	vârstă	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	obl:pmod	_	O
 13	extreme	extrem	ADJ	Afsfp-n	Definite=Ind|Degree=Sup|Gender=Fem|Number=Plur	12	amod	_	O
 14	,	,	PUNCT	COMMA	_	16	punct	_	O
 15	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	O
@@ -11669,7 +11669,7 @@
 3	chirurgicale	chirurgical	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	O
 4	depinde	depinde	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
 5	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	O
-6	asocierea	asociere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod:pmod	_	O
+6	asocierea	asociere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obl:pmod	_	O
 7	eventuală	eventual	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	O
 8	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	O
 9	anevrismului	anevrism	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	B-DISO
@@ -11882,7 +11882,7 @@
 3	valvular	valvular	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	I-ANAT
 4	mitral	mitral	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	I-ANAT
 5	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	O
-6	reducerea	reducere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod:pmod	_	O
+6	reducerea	reducere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obl:pmod	_	O
 7	diametrului	diametru	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	O
 8	orificiului	orificiu	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	B-ANAT
 9	mitral	mitral	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	I-ANAT
@@ -11890,7 +11890,7 @@
 11	incompetența	incompetență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	B-DISO
 12	valvulară	valvular	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	I-DISO
 13	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	O
-14	alterarea	alterare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nmod:pmod	_	O
+14	alterarea	alterare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	obl:pmod	_	O
 15	fluxului	flux	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	O
 16	atrioventricular	atrioventricular	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	O
 17	diastolic	diastolic	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	O
@@ -12202,7 +12202,7 @@
 3	tehnici	tehnică	NOUN	Ncfson	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	O
 4	constă	consta	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
 5	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	O
-6	corecția	corecție	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod:pmod	_	O
+6	corecția	corecție	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obl:pmod	_	O
 7	concomitentă	concomitent	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	O
 8	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	O
 9	modificărilor	modificare	NOUN	Ncfpoy	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	O
@@ -12585,7 +12585,7 @@
 4	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	5	expl:pv	_	O
 5	rezolvă	rezolva	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
 6	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	7	case	_	O
-7	alungirea	alungire	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nmod:pmod	_	O
+7	alungirea	alungire	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obl:pmod	_	O
 8	,	,	PUNCT	COMMA	_	9	punct	_	O
 9	scurtarea	scurtare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	conj	_	O
 10	sau	sau	CCONJ	Ccssp	Polarity=Pos	11	cc	_	O
@@ -12726,7 +12726,7 @@
 11	reparare	reparare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	O
 12	percutanată	percutanat	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	11	acl	_	O
 13	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	O
-14	rezultate	rezultat	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	12	nmod:pmod	_	O
+14	rezultate	rezultat	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	12	obl:pmod	_	O
 15	favorabile	favorabil	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	O
 16	pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	O
 17	trialuri	trial	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	O
@@ -12952,7 +12952,7 @@
 3	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	4	expl:pv	_	O
 4	referă	referi	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
 5	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	O
-6	pacienți	pacient	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	4	nmod:pmod	_	O
+6	pacienți	pacient	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	4	obl:pmod	_	O
 7	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	O
 8	simptome	simptom	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	O
 9	clasa	clasă	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	O
@@ -13203,7 +13203,7 @@
 2	VD	VD	NOUN	Yn	Abbr=Yes	1	nmod	_	B-ANAT
 3	cuprins	cuprinde	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	O
 4	între	între	ADP	Spsa	AdpType=Prep|Case=Acc	5	case	_	O
-5	creasta	creastă	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nmod:pmod	_	B-ANAT
+5	creasta	creastă	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obl:pmod	_	B-ANAT
 6	supraventriculară	supraventricular	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	I-ANAT
 7	și	și	CCONJ	Crssp	Polarity=Pos	8	cc	_	O
 8	orificiul	orificiu	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	conj	_	B-ANAT
@@ -13249,7 +13249,7 @@
 14	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	O
 15	grevată	greva	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	O
 16	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	O
-17	risc	risc	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	15	nmod:agent	_	B-DISO
+17	risc	risc	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	15	obl:agent	_	B-DISO
 18	chirurgical	chirurgical	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	O
 19	crescut	crescut	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	O
 20	,	,	PUNCT	COMMA	_	25	punct	_	O
@@ -13259,7 +13259,7 @@
 24	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	O
 25	condiționat	condiționa	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	15	conj	_	O
 26	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	27	case	_	O
-27	afectarea	afectare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nmod:agent	_	B-DISO
+27	afectarea	afectare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	obl:agent	_	B-DISO
 28	cardiacă	cardiac	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	I-DISO
 29	preoperatorie	preoperatoriu	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	I-DISO
 30	.	.	PUNCT	PERIOD	_	15	punct	_	O
@@ -13291,7 +13291,7 @@
 1	Sunt	fi	AUX	Vaip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	O
 2	impuse	impune	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	O
 3	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	O
-4	necesitatea	necesitate	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nmod:agent	_	O
+4	necesitatea	necesitate	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obl:agent	_	O
 5	realizării	realizare	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	O
 6	unei	un	DET	Tifso	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	O
 7	circulații	circulație	NOUN	Ncfson	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	O
@@ -13479,7 +13479,7 @@
 7	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	8	expl:pv	_	O
 8	însoțește	însoți	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	O
 9	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	10	case	_	O
-10	disfuncție	disfuncție	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nmod:pmod	_	B-DISO
+10	disfuncție	disfuncție	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	obl:pmod	_	B-DISO
 11	sistolică	sistolic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	I-DISO
 12	longitudinală	longitudinală	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	10	amod	_	O
 13	ventriculară	ventricular	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	O
@@ -13699,7 +13699,7 @@
 20	)	)	PUNCT	RPAR	_	19	punct	_	O
 21	degenerativă	degenerativ	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	I-DISO
 22	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	23	case	_	O
-23	regurgitație	regurgitație	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	21	nmod:pmod	_	B-DISO
+23	regurgitație	regurgitație	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	21	obl:pmod	_	B-DISO
 24	severă	sever	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	I-DISO
 25	și	și	CCONJ	Crssp	Polarity=Pos	26	cc	_	O
 26	cardiomiopatiile	cardiomiopatie	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	23	conj	_	B-DISO
@@ -13889,7 +13889,7 @@
 24	risc	risc	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	16	conj	_	B-DISO
 25	crescut	crescut	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	24	acl	_	O
 26	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	27	case	_	O
-27	accidente	accident	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	25	nmod:agent	_	B-DISO
+27	accidente	accident	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	25	obl:agent	_	B-DISO
 28	vasculare	vascular	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	I-DISO
 29	cardio-embolice	cardio-embolic	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	I-DISO
 30	.	.	PUNCT	PERIOD	_	3	punct	_	O
@@ -13962,7 +13962,7 @@
 9	fiziopatologice	fiziopatologic	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	I-DISO
 10	induse	induce	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	8	acl	_	O
 11	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	12	case	_	O
-12	IC	IC	NOUN	Yn	Abbr=Yes	10	nmod:agent	_	B-DISO
+12	IC	IC	NOUN	Yn	Abbr=Yes	10	obl:agent	_	B-DISO
 13	,	,	PUNCT	COMMA	_	17	punct	_	O
 14	cât	cât	ADV	Rw	PronType=Int,Rel	17	cc	_	O
 15	și	și	CCONJ	Crssp	Polarity=Pos	14	fixed	_	O
@@ -13990,7 +13990,7 @@
 9	tromboembolice	tromboembolic	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	I-DISO
 10	asociate	asocia	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	8	acl	_	O
 11	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	12	case	_	O
-12	FA	FA	NOUN	Yn	Abbr=Yes	10	nmod:pmod	_	O
+12	FA	FA	NOUN	Yn	Abbr=Yes	10	obl:pmod	_	O
 13	,	,	PUNCT	COMMA	_	4	punct	_	O
 14	crește	crește	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
 15	riscul	risc	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	obj	_	B-DISO
@@ -14056,7 +14056,7 @@
 6	fi	fi	AUX	Vanp	Tense=Pres|VerbForm=Inf	7	aux:pass	_	O
 7	influențate	influența	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	5	ccomp	_	O
 8	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	O
-9	prezența	prezență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nmod:agent	_	O
+9	prezența	prezență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obl:agent	_	O
 10	comorbidităților	comorbiditate	NOUN	Ncfpoy	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	B-DISO
 11	(	(	PUNCT	LPAR	_	12	punct	_	O
 12	BPOC	BPOC	NOUN	Yn	Abbr=Yes	10	appos	_	B-DISO
@@ -14630,7 +14630,7 @@
 15	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	O
 16	asociere	asociere	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	O
 17	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	18	case	_	O
-18	betablocante	betablocant	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	16	nmod:pmod	_	B-CHEM
+18	betablocante	betablocant	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	16	obl:pmod	_	B-CHEM
 19	sau	sau	CCONJ	Ccssp	Polarity=Pos	20	cc	_	O
 20	blocante	blocant	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	18	conj	_	B-CHEM
 21	ale	al	DET	Tsfp	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	22	det	_	O
@@ -14734,7 +14734,7 @@
 5	poate	putea	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	O
 6	contribui	contribui	VERB	Vmnp	Tense=Pres|VerbForm=Inf	5	ccomp	_	O
 7	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	O
-8	progresia	progresie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nmod:pmod	_	O
+8	progresia	progresie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obl:pmod	_	O
 9	IC	IC	NOUN	Yn	Abbr=Yes	8	nmod	_	B-DISO
 10	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	11	case	_	O
 11	activarea	activare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	O
@@ -15477,7 +15477,7 @@
 11	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	O
 12	aprobat	aproba	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	O
 13	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	O
-14	FDA	FDA	NOUN	Yn	Abbr=Yes	12	nmod:agent	_	O
+14	FDA	FDA	NOUN	Yn	Abbr=Yes	12	obl:agent	_	O
 15	(	(	PUNCT	LPAR	_	16	punct	_	O
 16	Food	Food	X	X	_	14	appos	_	O
 17	and	and	X	X	_	16	nmod	_	O
@@ -15785,7 +15785,7 @@
 22	fost	fi	AUX	Vap--sm	Gender=Masc|Number=Sing|VerbForm=Part	23	aux:pass	_	O
 23	însoțită	însoți	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	14	ccomp	_	O
 24	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	25	case	_	O
-25	creșterea	creștere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nmod:agent	_	O
+25	creșterea	creștere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	obl:agent	_	O
 26	mortalității	mortalitate	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	O
 27	intraspitalicești	intraspitalicesc	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	O
 28	.	.	PUNCT	PERIOD	_	14	punct	_	O
@@ -15818,7 +15818,7 @@
 24	fiind	fi	AUX	Vag	VerbForm=Ger	25	aux:pass	_	O
 25	asociată	asocia	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	4	advcl	_	O
 26	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	27	case	_	O
-27	reducerea	reducere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nmod:pmod	_	O
+27	reducerea	reducere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	obl:pmod	_	O
 28	presiunilor	presiune	NOUN	Ncfpoy	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	27	nmod	_	O
 29	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	30	case	_	O
 30	umplere	umplere	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	28	nmod	_	O
