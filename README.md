@@ -35,6 +35,10 @@ Maria Mitrofan, Verginica Barbu Mititelu, Grigorina Mitrofan, MoNERo: a Biomedic
   * Increase the treebank size to 4239 sentences.
   * Removed the errors reported by the content validation tool.
   * Manual improvements of the annotation, concerning POS-tagging, syntactic labeling.
+* 2021-04-30 v2.8
+* UD 2.7 --> 2.8
+  * Applied automatic (but manually checked) corrections as executed by [ro-ud-autocorrect](https://github.com/racai-ai/ro-ud-autocorrect).
+  * Removed all artificially inserted spaces between punctuation tokens and nearby words; Regenerated the `# text =` comment accordingly.
 
 
 <pre>
