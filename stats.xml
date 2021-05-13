@@ -15,9 +15,9 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">17053</tag><!-- mare, crescut, cardiac, vârstnic, clinic, important, mic, renal, chirurgical, normal -->
+    <tag name="ADJ">17052</tag><!-- mare, crescut, cardiac, vârstnic, clinic, important, mic, renal, chirurgical, normal -->
     <tag name="ADP">20080</tag><!-- de, în, la, cu, din, pentru, prin, pe, dintre, după -->
-    <tag name="ADV">5910</tag><!-- mai, ca, iar, cât, atât, mult, astfel, când, chiar, asemenea -->
+    <tag name="ADV">5911</tag><!-- mai, ca, iar, cât, atât, mult, astfel, când, chiar, asemenea -->
     <tag name="AUX">4957</tag><!-- fi, avea, vrea, putea -->
     <tag name="CCONJ">5034</tag><!-- și, sau, dar, însă, fie, deci, ci, ori, încă, or -->
     <tag name="DET">7424</tag><!-- al, un, acest, cel, alt, lui, mult, său, tot, același -->
@@ -33,40 +33,41 @@
     <tag name="X">1271</tag><!-- ß, jeun, GH, à, T1DM, beta, in, Ca2, of, et -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="58">
-    <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,NOUN,X">2933</feat><!-- mg, IC, vs, HTA, TA, DZ, FA, p, AVC, dl -->
+  <feats unique="59">
+    <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,NOUN,X">2789</feat><!-- mg, IC, vs, HTA, TA, DZ, FA, AVC, dl, EI -->
     <feat name="AdpType" value="Prep" upos="ADP,PUNCT">20673</feat><!-- de, în, la, cu, din, pentru, prin, pe, /, dintre -->
     <feat name="Case" value="Acc" upos="ADP,PRON">21175</feat><!-- de, în, la, cu, se, din, pentru, prin, pe, s- -->
     <feat name="Case" value="Acc,Nom" upos="NUM">1</feat><!-- unul -->
     <feat name="Case" value="Dat" upos="ADP,PRON">223</feat><!-- datorită, conform, își, li, și-, i, le, îi, se, i- -->
     <feat name="Case" value="Dat,Gen" upos="DET">6</feat><!-- cărui -->
-    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">10441</feat><!-- unui, unei, asupra, pacienților, unor, diabetului, insulinei, tratamentului, bolii, celulelor -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">32257</feat><!-- care, o, un, pacienții, ce, nivelul, cazul, insulină, acest, creșterea -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">10443</feat><!-- unui, unei, asupra, pacienților, unor, diabetului, insulinei, tratamentului, bolii, celulelor -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">32079</feat><!-- care, o, un, pacienții, ce, nivelul, cazul, insulină, acest, creșterea -->
     <feat name="Case" value="Voc" upos="NOUN">4</feat><!-- postoperator, prolactina, retinopatia, trimetorpin -->
     <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,NUM,PROPN">22257</feat><!-- pacienții, nivelul, cazul, creșterea, tratamentul, vârsta, pacienților, scăderea, riscul, diabetului -->
-    <feat name="Definite" value="Ind" upos="ADJ,NOUN,NUM,PROPN">34791</feat><!-- pacienți, ani, diabet, risc, mare, vârstnici, insulină, tip, tratament, timp -->
+    <feat name="Definite" value="Ind" upos="ADJ,NOUN,NUM,PROPN">34934</feat><!-- pacienți, ani, diabet, risc, mare, vârstnici, insulină, tip, tratament, timp -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">37</feat><!-- superioară, superioare, superior, succesiv, inferioare, superiori -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">20367</feat><!-- mare, atât, mult, astfel, chiar, asemenea, vârstnici, frecvent, comparativ, puțin -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">20368</feat><!-- mare, atât, mult, astfel, chiar, asemenea, vârstnici, frecvent, comparativ, puțin -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">15</feat><!-- extrem, excesiv, extreme, perfect -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">42831</feat><!-- a, o, ale, insulină, creșterea, cele, vârsta, această, unei, mare -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">26384</feat><!-- un, al, pacienții, fost, pacienți, ani, nivelul, diabet, risc, vârstnici -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">26529</feat><!-- un, al, pacienții, fost, pacienți, ani, nivelul, diabet, risc, vârstnici -->
     <feat name="Mood" value="Imp" upos="VERB">11</feat><!-- vezi, consultați, Contactați, simțiți, spune-, sunați, Învățați -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">6641</feat><!-- este, sunt, poate, pot, are, trebuie, există, au, reprezintă, prezintă -->
     <feat name="Mood" value="Sub" upos="AUX,PART,VERB">612</feat><!-- să, fie, aibă, facă, țină, apară, crească, explice, moară, poată -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">25932</feat><!-- au, sunt, pacienții, ale, pacienți, ani, 2, pot, vârstnici, cele -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">54293</feat><!-- a, este, o, un, al, fost, poate, nivelul, diabet, risc -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">22190</feat><!-- au, sunt, pacienții, ale, pacienți, ani, pot, vârstnici, cele, cazuri -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">58350</feat><!-- a, este, o, un, al, fost, poate, 2, nivelul, diabet -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">122</feat><!-- lor, noastră, nostru, noastre -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">141</feat><!-- săi, ei, sa, său, sale, lui, noastre, mele, noștri, tău -->
-    <feat name="NumForm" value="Digit" upos="NUM">3965</feat><!-- 2, 1, 3, 4, 5, 30, 10, 20, 6, 15 -->
-    <feat name="NumForm" value="Roman" upos="NUM">108</feat><!-- i, II, III, IV, V, l, I-, VII, VIII, XIX -->
-    <feat name="NumForm" value="Word" upos="ADJ,NUM">497</feat><!-- două, trei, primul, prima, primele, doua, doilea, patru, primă, cinci -->
-    <feat name="NumType" value="Card" upos="NUM">4234</feat><!-- 2, 1, două, 3, 4, 5, 30, 10, 20, 6 -->
+    <feat name="NumForm" value="Combi" upos="NUM">2</feat><!-- 31.12.2012 -->
+    <feat name="NumForm" value="Digit" upos="NUM">3890</feat><!-- 2, 1, 3, 4, 5, 30, 10, 20, 6, 15 -->
+    <feat name="NumForm" value="Roman" upos="NUM">182</feat><!-- II, iv, III, i, V, l, VII, XIX, I-, VIII -->
+    <feat name="NumForm" value="Word" upos="ADJ,NUM">498</feat><!-- două, trei, primul, prima, primele, doua, doilea, patru, primă, cinci -->
+    <feat name="NumType" value="Card" upos="NUM">4161</feat><!-- 2, 1, două, 3, 4, 5, 30, 10, 20, 6 -->
     <feat name="NumType" value="Frac" upos="NUM">3</feat><!-- treime -->
-    <feat name="NumType" value="Ord" upos="ADJ,NUM">369</feat><!-- primul, prima, i, II, primele, III, doua, doilea, primă, ultimii -->
+    <feat name="NumType" value="Ord" upos="ADJ,NUM">443</feat><!-- primul, II, iv, III, prima, i, primele, doua, doilea, primă -->
     <feat name="PartType" value="Inf" upos="PART">302</feat><!-- a -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">239</feat><!-- am, ne, noastră, nostru, avem, noastre, putem, menționăm, suntem, vom -->
-    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">74</feat><!-- vă, vezi, veți, aveți, ați, consultați, observați, participați, puteți, sunteți -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">14517</feat><!-- este, care, se, au, a, sunt, ce, poate, s-, pot -->
+    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">75</feat><!-- vă, vezi, veți, aveți, ați, consultați, observați, participați, puteți, sunteți -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">14516</feat><!-- este, care, se, au, a, sunt, ce, poate, s-, pot -->
     <feat name="Polarity" value="Neg" upos="PART,SCONJ">1535</feat><!-- că, nu, dacă, deși, deoarece, până, încât, întrucât, fără, să -->
     <feat name="Polarity" value="Pos" upos="CCONJ,SCONJ">5116</feat><!-- și, sau, dar, însă, fie, că, deci, ci, dacă, deoarece -->
     <feat name="Position" value="Postnom" upos="DET">2</feat><!-- Acestea, acesteia -->
@@ -100,11 +101,11 @@
     <dep name="advcl:tcl">3</dep>
     <dep name="advmod">5760</dep>
     <dep name="advmod:tmod">4</dep>
-    <dep name="amod">15265</dep>
+    <dep name="amod">15263</dep>
     <dep name="appos">1536</dep>
     <dep name="aux">1987</dep>
     <dep name="aux:pass">1077</dep>
-    <dep name="case">18481</dep>
+    <dep name="case">18480</dep>
     <dep name="cc">4859</dep>
     <dep name="cc:preconj">41</dep>
     <dep name="ccomp">1160</dep>
@@ -121,20 +122,20 @@
     <dep name="expl:pass">704</dep>
     <dep name="expl:poss">38</dep>
     <dep name="expl:pv">551</dep>
-    <dep name="fixed">3259</dep>
+    <dep name="fixed">3260</dep>
     <dep name="flat">390</dep>
-    <dep name="goeswith">28</dep>
+    <dep name="goeswith">27</dep>
     <dep name="iobj">441</dep>
-    <dep name="mark">2134</dep>
-    <dep name="nmod">19019</dep>
-    <dep name="nmod:agent">577</dep>
-    <dep name="nmod:pmod">488</dep>
+    <dep name="mark">2135</dep>
+    <dep name="nmod">18964</dep>
     <dep name="nmod:tmod">104</dep>
-    <dep name="nsubj">6336</dep>
-    <dep name="nsubj:pass">1343</dep>
+    <dep name="nsubj">6250</dep>
+    <dep name="nsubj:pass">1430</dep>
     <dep name="nummod">3169</dep>
     <dep name="obj">3406</dep>
-    <dep name="obl">6334</dep>
+    <dep name="obl">6390</dep>
+    <dep name="obl:agent">577</dep>
+    <dep name="obl:pmod">488</dep>
     <dep name="orphan">4</dep>
     <dep name="parataxis">1145</dep>
     <dep name="punct">19614</dep>
