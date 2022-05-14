@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Romanian-SiMoNERo:
-commit f056fd1760ffec4fbf53aa786e6cf1b8cf958d2a
+commit 8faaa5b85824b7e121581173f0507f1404b168f4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:50:35 2021 +0200
+Date:   Wed Nov 3 16:55:25 2021 +0100
 Size: counted 146020 of 146020 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.96748719725588.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -27,10 +27,26 @@ Genres: found 1 out of 17 known.
 validate.py --lang ro --max-err=10 UD_Romanian-SiMoNERo/ro_simonero-ud-dev.conllu
 *** PASSED ***
 validate.py --lang ro --max-err=10 UD_Romanian-SiMoNERo/ro_simonero-ud-test.conllu
-*** PASSED ***
+[Line 2322 Sent test-71 Node 15]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 2323 Sent test-71 Node 16]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+Morpho errors: 2
+*** FAILED *** with 2 errors
+Exit code: 1
 validate.py --lang ro --max-err=10 UD_Romanian-SiMoNERo/ro_simonero-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 18103 Sent train-546 Node 27]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 18104 Sent train-546 Node 28]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 18104 Sent train-546 Node 28]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 18104 Sent train-546 Node 28]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 31101 Sent train-926 Node 59]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 31102 Sent train-926 Node 60]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 31102 Sent train-926 Node 60]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 31102 Sent train-926 Node 60]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 56781 Sent train-1693 Node 36]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+...suppressing further errors regarding Morpho
+Morpho errors: 104
+*** FAILED *** with 104 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -39,6 +55,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.915148609779482) = 0.281584187624456
 (weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.754938360499852) * (availability=1) * (validity=1) = 0.754938360499852
-STARS = 4
-UD_Romanian-SiMoNERo	0.754938360499852	4
+(TOTAL score=0.754938360499852) * (availability=1) * (validity=0.01) = 0.00754938360499852
+STARS = 0
+UD_Romanian-SiMoNERo	0.00754938360499852	0
