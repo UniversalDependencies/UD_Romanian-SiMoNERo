@@ -883,7 +883,7 @@
 
 # sent_id = test-24
 # text = Ocazional hipoglicemia poate fi indusă de unele tumori, incluzând tumori pancreatice insulare, secretoare de insulină, dar și tumori non-insulare care secretă factori de creștere insulin-like (15).
-1	Ocazional	ocazional	ADV	Rgp	Degree=Pos	3	nsubj	_	_
+1	Ocazional	ocazional	ADV	Rgp	Degree=Pos	3	advmod	_	_
 2	hipoglicemia	hipoglicemie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	BioNERLabel=B-DISO
 3	poate	putea	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	fi	fi	AUX	Vanp	Tense=Pres|VerbForm=Inf	5	aux:pass	_	_
@@ -2319,8 +2319,8 @@
 12	deoarece	deoarece	SCONJ	Csssp	Polarity=Pos	25	mark	_	_
 13	nivelele	nivel	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	25	nsubj	_	_
 14	serice	seric	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
-15	a	a	X	X	Typo=Yes	13	amod	_	_
-16	jeun		X	X		15	goeswith	_	_
+15	a	a_jeun	X	X	Typo=Yes	13	amod	_	_
+16	jeun	_	X	X	_	15	goeswith	_	_
 17	ale	al	DET	Tsfp	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det	_	_
 18	glicerolului	glicerol	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	BioNERLabel=B-CHEM
 19	și	și	CCONJ	Crssp	Polarity=Pos	22	cc	_	_
@@ -2397,7 +2397,7 @@
 18	)	)	PUNCT	RPAR	_	16	punct	_	_
 19	pot	putea	VERB	Vmip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	și	și	CCONJ	Crssp	Polarity=Pos	21	advmod	_	_
-21	ei	el	PRON	Pp3mpr--------s	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Strength=Strong	19	nsubj	_	_
+21	ei	el	PRON	Pp3mpr--------s	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Strength=Strong	19	expl	_	_
 22	să	să	PART	Qs	Mood=Sub	23	mark	_	_
 23	interfere	interfera	VERB	Vmsp3	Mood=Sub|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
 24	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	25	case	_	_
@@ -2787,7 +2787,7 @@
 9	după	după	ADP	Spsa	AdpType=Prep|Case=Acc	16	mark	_	_
 10	cum	cum	ADV	Rw	PronType=Int,Rel	9	fixed	_	_
 11	și	și	CCONJ	Crssp	Polarity=Pos	9	fixed	_	_
-12	echilibrarea	echilibrare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	_
+12	echilibrarea	echilibrare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	_
 13	diabetului	diabet	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	BioNERLabel=B-DISO
 14	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 15	mai	mai	ADV	Rp	_	16	advmod	_	_
@@ -2993,7 +2993,7 @@
 21	terapie	terapie	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	20	nsubj:pass	_	BioNERLabel=B-PROC
 22	topică	topic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	BioNERLabel=I-PROC
 23	locală	local	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
-24	picături	picătură	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	20	nsubj:pass	_	_
+24	picături	picătură	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	21	appos	_	_
 25	antipseudomonas	antipseudomonas	ADJ	Afp	Degree=Pos	24	amod	_	BioNERLabel=B-CHEM
 26	și	și	CCONJ	Crssp	Polarity=Pos	27	cc	_	_
 27	tratament	tratament	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	24	conj	_	BioNERLabel=B-PROC
@@ -3356,7 +3356,7 @@
 # sent_id = test-101
 # text = TA sistolică peste 140 mmHg este factor de risc (după ajustare pentru nivelul albuminuriei la debutul studiului) numai pentru pacienții cu T1DM, ca și prezența medicației antihipertensive.
 1	TA	TA	NOUN	Yn	Abbr=Yes	7	nsubj	_	_
-2	sistolică	sistolic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	sistolică	sistolic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
 3	peste	peste	ADP	Spsa	AdpType=Prep|Case=Acc	5	case	_	_
 4	140	140	NUM	Mc-s-d	Number=Sing|NumForm=Digit|NumType=Card	5	nummod	_	_
 5	mmHg	mmHg	NOUN	Yn	Abbr=Yes	2	obl	_	_
@@ -5153,7 +5153,7 @@
 30	mult	mult	ADV	Rgp	Degree=Pos	31	advmod	_	_
 31	lărgite	lărgit	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 32	,	,	PUNCT	COMMA	_	31	punct	_	_
-33	aprecierea	apreciere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	nsubj	_	_
+33	aprecierea	apreciere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	41	nsubj	_	_
 34	corectă	corect	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
 35	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	39	det	_	_
 36	celei	acela	DET	Tdfso	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	38	det	_	_
@@ -5638,7 +5638,7 @@
 2	metodei	metodă	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	_
 3	nu	nu	PART	Qz	Polarity=Neg	6	advmod	_	_
 4	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
-5	cert	cert	ADV	Rgp	Degree=Pos	6	nsubj:pass	_	_
+5	cert	cert	ADV	Rgp	Degree=Pos	6	advmod	_	_
 6	demonstrată	demonstra	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 7	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	_
 8	trialurile	trial	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	obl	_	_
@@ -5900,19 +5900,19 @@
 5	postoperator	postoperator	ADJ	Afp	Degree=Pos	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	COMMA	_	2	punct	_	_
 7	principala	principal	ADJ	Afpfsry	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
-8	complicație	complicație	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	nsubj	_	BioNERLabel=B-DISO
+8	complicație	complicație	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	BioNERLabel=B-DISO
 9	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	10	nsubj	_	_
 10	poate	putea	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
 11	surveni	surveni	VERB	Vmnp	Tense=Pres|VerbForm=Inf	10	ccomp	_	_
-12	o	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	11	obj	_	_
+12	o	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	13	expl	_	_
 13	constituie	constitui	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	tromboza	tromboză	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	BioNERLabel=B-DISO
 15	secundară	secundar	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	BioNERLabel=I-DISO
 16	unei	un	DET	Tifso	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	17	det	_	_
-17	etiologii	etiologie	NOUN	Ncfson	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	13	iobj	_	_
+17	etiologii	etiologie	NOUN	Ncfson	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	15	iobj	_	_
 18	plurifactoriale	plurifactorial	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
 19	,	,	PUNCT	COMMA	_	20	punct	_	_
-20	rezultată	rezulta	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	17	acl	_	_
+20	rezultată	rezulta	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
 21	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	22	case	_	_
 22	lezarea	lezare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	BioNERLabel=B-DISO
 23	iatrogenă	iatrogen	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	BioNERLabel=I-DISO
@@ -6054,7 +6054,7 @@
 # sent_id = test-171
 # text = Un factor care influențează nefast permeabilitatea la distanță a arterei radiale îl constituie numărul crescut de clipsuri necesar în timpul scheletizării/recoltării.
 1	Un	un	DET	Timsr	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
-2	factor	factor	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	_
+2	factor	factor	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	_
 3	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	4	nsubj	_	_
 4	influențează	influența	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
 5	nefast	nefast	ADV	Rgp	Degree=Pos	4	advmod	_	_
@@ -6067,13 +6067,13 @@
 12	îl	el	PRON	Pp3msa--------w	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Strength=Weak	13	expl	_	_
 13	constituie	constitui	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	numărul	număr	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	_
-15	crescut	crescut	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	acl	_	_
+15	crescut	crescut	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 16	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	_
 17	clipsuri	clips	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	_
-18	necesar	necesar	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+18	necesar	necesar	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 19	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	21	case	_	_
 20	timpul	timp	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	fixed	_	_
-21	scheletizării	scheletizare	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	BioNERLabel=B-PROC|SpaceAfter=No
+21	scheletizării	scheletizare	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	BioNERLabel=B-PROC|SpaceAfter=No
 22	/	/	PUNCT	SLASH	AdpType=Prep	21	punct	_	SpaceAfter=No
 23	recoltării	recoltare	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	conj	_	BioNERLabel=B-PROC|SpaceAfter=No
 24	.	.	PUNCT	PERIOD	_	13	punct	_	_
@@ -9190,7 +9190,7 @@
 4	susține	susține	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	faptul	fapt	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	_
 6	că	că	SCONJ	Csssp	Polarity=Pos	15	mark	_	_
-7	postoperator	postoperator	ADV	Rgp	Degree=Pos	15	nsubj	_	SpaceAfter=No
+7	postoperator	postoperator	ADV	Rgp	Degree=Pos	15	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	COMMA	_	10	punct	_	_
 9	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	10	case	_	_
 10	octogenari	octogenar	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
@@ -10786,10 +10786,10 @@
 17	,	,	PUNCT	COMMA	_	9	punct	_	_
 18	devine	deveni	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	o	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	20	det	_	_
-20	dată	dată	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	nsubj	_	_
+20	dată	dată	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	_
 21	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	23	advmod	_	_
 22	plus	plus	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	21	fixed	_	_
-23	fragil	fragil	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+23	fragil	fragil	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	xcomp	_	_
 24	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	25	case	_	_
 25	necesitatea	necesitate	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	_
 26	abordării	abordare	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	_
@@ -11038,7 +11038,7 @@
 2	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	1	fixed	_	_
 3	prezent	prezent	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	COMMA	_	1	punct	_	_
-5	concepția	concepție	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	39	nsubj	_	_
+5	concepția	concepție	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	_
 6	generală	general	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 7	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
 8	chirurgilor	chirurg	NOUN	Ncmpoy	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	_
@@ -11071,11 +11071,11 @@
 35	VS	VS	NOUN	Yn	Abbr=Yes	29	nmod	_	BioNERLabel=B-ANAT
 36	redusă	redus	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
 37	,	,	PUNCT	COMMA	_	27	punct	_	_
-38	sunt	fi	AUX	Vaip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+38	sunt	fi	AUX	Vaip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux:pass	_	_
 39	grevați	greva	VERB	Vmp--pm	Gender=Masc|Number=Plur|VerbForm=Part	14	xcomp	_	_
 40	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	42	case	_	_
 41	un	un	DET	Timsr	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	42	det	_	_
-42	prognostic	prognostic	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	39	obl:agent	_	_
+42	prognostic	prognostic	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	39	obl:pmod	_	_
 43	nefast	nefast	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	_
 44	după	după	ADP	Spsa	AdpType=Prep|Case=Acc	45	case	_	_
 45	protezare	protezare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	39	obl	_	BioNERLabel=B-PROC
