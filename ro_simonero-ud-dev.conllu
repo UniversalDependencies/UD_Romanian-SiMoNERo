@@ -1794,11 +1794,11 @@
 8	timpul	timp	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	fixed	_	_
 9	examinării	examinare	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	_
 10	și	și	CCONJ	Crssp	Polarity=Pos	11	cc	_	_
-11	consemnarea	consemnare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	conj	_	_
+11	consemnarea	consemnare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	conj	_	_
 12	(	(	PUNCT	LPAR	_	13	punct	_	SpaceAfter=No
-13	eventualelor	eventual	ADJ	Afpfpoy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+13	eventualelor	eventual	ADJ	Afpfpoy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
 14	)	)	PUNCT	RPAR	_	13	punct	_	_
-15	presiuni	presiune	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	20	nsubj	_	_
+15	presiuni	presiune	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	11	nmod	_	_
 16	arteriale	arterial	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
 17	sistolice	sistolic	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
 18	crescute	crescut	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
@@ -2617,12 +2617,12 @@
 # text = Aceste echivalente anginale probabil că apar prin creșterea exagerată a presiunii telediastolice în VS, rezultat al ischemiei suprapuse peste reducerea complianței unui VS indusă de senescență și care este cel mai adesea moderat hipertrofiat (27).
 1	Aceste	acest	DET	Dd3fpr---e	Case=Nom|Gender=Fem|Number=Plur|Person=3|Position=Prenom|PronType=Dem	3	det	_	_
 2	echivalente	echivalent	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	3	amod	_	BioNERLabel=B-DISO
-3	anginale	anginal	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	4	nsubj	_	BioNERLabel=I-DISO
+3	anginale	anginal	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	6	nsubj	_	BioNERLabel=I-DISO
 4	probabil	probabil	ADV	Rgp	Degree=Pos	0	root	_	_
 5	că	că	SCONJ	Csssp	Polarity=Neg	6	mark	_	_
 6	apar	apărea	VERB	Vmip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	csubj	_	_
 7	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	_
-8	creșterea	creștere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obl:pmod	_	_
+8	creșterea	creștere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	_
 9	exagerată	exagerat	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 10	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	presiunii	presiune	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	_
@@ -4412,8 +4412,8 @@
 5	apar	apărea	VERB	Vmip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	mai	mai	ADV	Rp	_	7	advmod	_	_
 7	frecvent	frecvent	ADV	Rgp	Degree=Pos	5	advmod	_	SpaceAfter=No
-8	,	,	PUNCT	COMMA	_	7	punct	_	_
-9	consecința	consecință	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_
+8	,	,	PUNCT	COMMA	_	9	punct	_	_
+9	consecința	consecință	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	_
 10	disfuncției	disfuncție	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	BioNERLabel=B-DISO
 11	ventriculare	ventricular	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	BioNERLabel=I-DISO
 12	stângi	stâng	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	BioNERLabel=I-DISO
@@ -5842,7 +5842,7 @@
 6	practică	practică	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	_
 7	există	exista	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	așa-	așa	ADV	Rgpy	Degree=Pos	9	advmod	_	SpaceAfter=No
-9	numita	numit	ADJ	Afpfsry	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	nsubj	_	_
+9	numita	numit	ADJ	Afpfsry	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	fibrilație	fibrilație	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	BioNERLabel=B-DISO
 11	atrială	atrial	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	BioNERLabel=I-DISO
 12	periinfarct	periinfarct	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	10	amod	_	BioNERLabel=I-DISO|SpaceAfter=No
@@ -5851,7 +5851,7 @@
 15	ce	ce	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	17	nsubj	_	_
 16	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	17	expl:pass	_	_
 17	poate	putea	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
-18	instala	instala	VERB	Vmnp	Tense=Pres|VerbForm=Inf	17	csubj	_	_
+18	instala	instala	VERB	Vmnp	Tense=Pres|VerbForm=Inf	17	ccomp	_	_
 19	ca	ca	ADV	Rc	_	20	case	_	_
 20	eveniment	eveniment	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	_
 21	singular	singular	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
@@ -6179,7 +6179,7 @@
 4	astfel	astfel	ADV	Rgp	Degree=Pos	3	advmod	_	_
 5	faptul	fapt	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	_
 6	că	că	SCONJ	Csssp	Polarity=Neg	10	mark	_	_
-7	datele	dată	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	17	nsubj	_	_
+7	datele	dată	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	_
 8	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	_
 9	registre	registru	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	_
 10	arată	arăta	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
@@ -6189,7 +6189,7 @@
 14	fost	fi	AUX	Vap--sm	Gender=Masc|Number=Sing|VerbForm=Part	17	cop	_	_
 15	mult	mult	DET	Di3msr	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	det	_	_
 16	timp	timp	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	_
-17	subutilizate	subutilizat	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	5	acl	_	_
+17	subutilizate	subutilizat	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	10	ccomp	_	_
 18	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	19	case	_	_
 19	populația	populație	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	obl	_	_
 20	vârstnică	vârstnic	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
@@ -6883,7 +6883,7 @@
 # text = Există opinii care sus încă, după angioplastia primară, betablocantele ar scădea mortalitatea doar la pacienții cu risc GRACE crescut și nu ar fi absolut necesare pacienților cu risc scăzut (39).
 1	Există	exista	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	opinii	opinie	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	1	nsubj	_	_
-3	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	13	nsubj	_	_
+3	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	13	dep	_	_
 4	sus	sus	ADV	Rgp	Degree=Pos	13	advmod	_	_
 5	încă	încă	ADV	Rgp	Degree=Pos	13	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	COMMA	_	8	punct	_	_
@@ -7434,7 +7434,7 @@
 
 # sent_id = dev-209
 # text = Sodium oxigen dismutaza, un antioxidant endogen, se consideră că inhibă procesul de îmbătrânire și scurtarea telomerelor.
-1	Sodium	sodium	NOUN	Ncmsrn	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	BioNERLabel=B-CHEM
+1	Sodium	sodium	NOUN	Ncmsrn	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	BioNERLabel=B-CHEM
 2	oxigen	oxigen	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	BioNERLabel=I-CHEM
 3	dismutaza	dismutază	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	BioNERLabel=I-CHEM|SpaceAfter=No
 4	,	,	PUNCT	COMMA	_	6	punct	_	_
@@ -9416,7 +9416,7 @@
 28	,	,	PUNCT	COMMA	_	39	punct	_	_
 29	însă	însă	CCONJ	Ccssp	Polarity=Pos	39	cc	_	_
 30	aproximativ	aproximativ	ADV	Rgp	Degree=Pos	31	advmod	_	_
-31	50%	50%	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	39	nsubj	_	_
+31	50%	50%	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	40	nsubj	_	_
 32	dintre	dintre	ADP	Spsa	AdpType=Prep|Case=Acc	33	case	_	_
 33	pacienții	pacient	NOUN	Ncmpry	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	31	nmod	_	_
 34	randomizați	randomiza	VERB	Vmp--pm	Gender=Masc|Number=Plur|VerbForm=Part	33	acl	_	_
@@ -9442,7 +9442,7 @@
 1	Spre	spre	ADP	Spsa	AdpType=Prep|Case=Acc	71	advmod	_	_
 2	exemplu	exemplu	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	COMMA	_	1	punct	_	_
-4	analiză	analiză	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	71	nsubj	_	_
+4	analiză	analiză	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	71	obl	_	_
 5	realizată	realiza	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	4	amod	_	_
 6	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	7	case	_	_
 7	Graham	Graham	PROPN	Np	_	5	obl:agent	_	_
@@ -10043,9 +10043,9 @@
 13	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	_
 14	stadii	stadiu	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	_
 15	avansate	avansat	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
-16	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	55	nsubj	_	SpaceAfter=No
+16	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	31	nsubj	_	SpaceAfter=No
 17	,	,	PUNCT	COMMA	_	18	punct	_	_
-18	suprapusă	suprapune	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	55	advcl	_	_
+18	suprapusă	suprapune	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	31	advcl	_	_
 19	peste	peste	ADP	Spsa	AdpType=Prep|Case=Acc	20	case	_	_
 20	riscul	risc	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	BioNERLabel=B-DISO
 21	hemoragic	hemoragic	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	BioNERLabel=I-DISO
@@ -13921,7 +13921,7 @@
 3	eicosanoizilor	eicosanoid	NOUN	Ncmpoy	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	BioNERLabel=B-CHEM
 4	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	și	și	CCONJ	Crssp	Polarity=Pos	6	advmod	_	_
-6	ea	el	PRON	Pp3fsr--------s	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Strength=Strong	7	nsubj	_	_
+6	ea	el	PRON	Pp3fsr--------s	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Strength=Strong	1	expl	_	_
 7	implicată	implica	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 8	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	_
 9	patogenia	patogenie	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	_
@@ -14224,10 +14224,10 @@
 2	nivel	nivel	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	_
 3	hepatic	hepatic	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	COMMA	_	2	punct	_	_
-5	mușchi	mușchi	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	BioNERLabel=B-ANAT
+5	mușchi	mușchi	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	BioNERLabel=B-ANAT
 6	scheletic	scheletic	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	BioNERLabel=I-ANAT
 7	și	și	CCONJ	Crssp	Polarity=Pos	8	cc	_	_
-8	țesut	țesut	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	BioNERLabel=B-ANAT
+8	țesut	țesut	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	BioNERLabel=B-ANAT
 9	adipos	adipos	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	BioNERLabel=I-ANAT
 10	activarea	activare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	_
 11	PKC	PKC	NOUN	Yn	Abbr=Yes	10	nmod	_	BioNERLabel=B-CHEM
@@ -14685,7 +14685,7 @@
 19	,	,	PUNCT	COMMA	_	23	punct	_	_
 20	ceea	acela	PRON	Pd3fsr	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem	23	nsubj	_	_
 21	ce	ce	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	20	fixed	_	_
-22	teoretic	teoretic	ADV	Rgp	Degree=Pos	23	nsubj	_	_
+22	teoretic	teoretic	ADV	Rgp	Degree=Pos	23	advmod	_	_
 23	contribuie	contribui	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
 24	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	25	case	_	_
 25	scăderea	scădere	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	obl:pmod	_	_
