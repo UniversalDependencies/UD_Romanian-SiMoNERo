@@ -1178,7 +1178,7 @@
 # text = Pe de altă parte nu s-au decelat diferențe între loturile examinate în ceea ce privește valorile strain global circumferențial sau radial (8).
 1	Pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	8	advmod	_	_
 2	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	1	fixed	_	_
-3	altă	alt	DET	Di3fsr---e	Case=Nom|Gender=Fem|Number=Sing|Person=3|Position=Prenom|PronType=Ind	1	det	_	_
+3	altă	alt	DET	Di3fsr---e	Case=Nom|Gender=Fem|Number=Sing|Person=3|Position=Prenom|PronType=Ind	1	fixed	_	_
 4	parte	parte	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	fixed	_	_
 5	nu	nu	PART	Qz	Polarity=Neg	8	advmod	_	_
 6	s-	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	8	expl:pass	_	SpaceAfter=No
@@ -6761,9 +6761,9 @@
 14	studiate	studia	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	12	acl	_	_
 15	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	_
 16	administrarea	administrare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obl	_	_
-17	pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	16	advmod	_	_
+17	pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	18	case	_	_
 18	termen	termen	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	_
-19	lung	lung	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	17	fixed	_	_
+19	lung	lung	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 20	post-IMA	post-IMA	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	16	nmod	_	BioNERLabel=B-DISO
 21	și	și	CCONJ	Crssp	Polarity=Pos	22	cc	_	_
 22	constituie	constitui	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
@@ -15616,8 +15616,8 @@
 20	către	către	ADP	Spsa	AdpType=Prep|Case=Acc	21	case	_	_
 21	limfocitele	limfocit	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	18	obl	_	BioNERLabel=B-CHEM
 22	T	T	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	BioNERLabel=I-CHEM
-23	Limfocitele	limfocit	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	22	flat	_	BioNERLabel=B-CHEM
-24	T	T	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	22	fixed	_	BioNERLabel=I-CHEM
+23	Limfocitele	limfocit	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	21	nmod	_	BioNERLabel=B-CHEM
+24	T	T	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	BioNERLabel=I-CHEM
 25	citotoxice	citotoxic	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	BioNERLabel=I-CHEM
 26	(	(	PUNCT	LPAR	_	27	punct	_	SpaceAfter=No
 27	CD8	CD8	NOUN	Yn	Abbr=Yes	21	appos	_	BioNERLabel=B-CHEM
@@ -15772,13 +15772,13 @@
 
 # sent_id = dev-439
 # text = În funcție de numărul de repetiții, minisatelitul genei insulinei (minisatelit este denumirea echivalentă termenului de VNTR) poate prezenta trei clase de alele.
-1	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	_
+1	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	_
 2	funcție	funcție	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	20	obl	_	_
-3	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	1	fixed	_	_
-4	numărul	număr	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	obl	_	_
+3	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	_
+4	numărul	număr	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
 5	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	_
 6	repetiții	repetiție	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	COMMA	_	4	punct	_	_
+7	,	,	PUNCT	COMMA	_	2	punct	_	_
 8	minisatelitul	minisatelit	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	nsubj	_	_
 9	genei	genă	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	_
 10	insulinei	insulină	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	BioNERLabel=B-CHEM
