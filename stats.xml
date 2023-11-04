@@ -16,7 +16,7 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">17052</tag><!-- mare, crescut, cardiac, vârstnic, clinic, important, mic, renal, chirurgical, normal -->
-    <tag name="ADP">20079</tag><!-- de, în, la, cu, din, pentru, prin, pe, dintre, după -->
+    <tag name="ADP">20078</tag><!-- de, în, la, cu, din, pentru, prin, pe, dintre, după -->
     <tag name="ADV">5911</tag><!-- mai, ca, iar, cât, atât, mult, astfel, când, chiar, asemenea -->
     <tag name="AUX">4958</tag><!-- fi, avea, vrea, putea -->
     <tag name="CCONJ">5034</tag><!-- și, sau, dar, însă, fie, deci, ci, ori, încă, or -->
@@ -30,13 +30,13 @@
     <tag name="PUNCT">19614</tag><!-- ,, ., ), (, /, -, ;, –, :, % -->
     <tag name="SCONJ">1054</tag><!-- că, dacă, deși, deoarece, până, întrucât, încât, fără, să, fiindcă -->
     <tag name="VERB">10208</tag><!-- putea, avea, trebui, asocia, prezenta, determina, exista, face, reprezenta, produce -->
-    <tag name="X">1272</tag><!-- ß, jeun, GH, à, T1DM, beta, in, Ca2, of, et -->
+    <tag name="X">1273</tag><!-- ß, jeun, GH, à, T1DM, beta, in, Ca2, of, et -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="60">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,NOUN,X">2789</feat><!-- mg, IC, vs, HTA, TA, DZ, FA, AVC, dl, EI -->
-    <feat name="AdpType" value="Prep" upos="ADP,PUNCT">20672</feat><!-- de, în, la, cu, din, pentru, prin, pe, /, dintre -->
-    <feat name="Case" value="Acc" upos="ADP,PRON">21174</feat><!-- de, în, la, cu, se, din, pentru, prin, pe, s- -->
+    <feat name="AdpType" value="Prep" upos="ADP,PUNCT">20671</feat><!-- de, în, la, cu, din, pentru, prin, pe, /, dintre -->
+    <feat name="Case" value="Acc" upos="ADP,PRON">21173</feat><!-- de, în, la, cu, se, din, pentru, prin, pe, s- -->
     <feat name="Case" value="Acc,Nom" upos="NUM">1</feat><!-- unul -->
     <feat name="Case" value="Dat" upos="ADP,PRON">223</feat><!-- datorită, conform, își, li, și-, i, le, îi, se, i- -->
     <feat name="Case" value="Dat,Gen" upos="DET">6</feat><!-- cărui -->
@@ -88,7 +88,7 @@
     <feat name="Tense" value="Past" upos="VERB">1</feat><!-- comportă -->
     <feat name="Tense" value="Pqp" upos="VERB">4</feat><!-- fuseseră, primiseră, publicaseră, ﬁe -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">8094</feat><!-- este, sunt, fi, poate, pot, are, trebuie, există, au, reprezintă -->
-    <feat name="Typo" value="Yes" upos="ADJ,ADV,NOUN,X">5</feat><!-- &b.beta;, a, comparativ, de, non -->
+    <feat name="Typo" value="Yes" upos="ADJ,ADV,NOUN,X">6</feat><!-- de, &b.beta;, a, comparativ, non -->
     <feat name="Variant" value="Short" upos="ADP,AUX,DET,PART,PRON,SCONJ,VERB">642</feat><!-- s-, într-, se, printr-, de-, dintr-, ul, și-, l-, l -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">7950</feat><!-- este, au, sunt, poate, pot, are, trebuie, ar, există, reprezintă -->
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">693</feat><!-- fiind, având, privind, putând, folosind, aparținând, reprezentând, incluzând, prezentând, începând -->
@@ -98,37 +98,37 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="45">
     <dep name="acl">3129</dep>
-    <dep name="advcl">1412</dep>
+    <dep name="advcl">1411</dep>
     <dep name="advcl:tcl">3</dep>
-    <dep name="advmod">5771</dep>
+    <dep name="advmod">5767</dep>
     <dep name="advmod:tmod">4</dep>
-    <dep name="amod">15267</dep>
+    <dep name="amod">15274</dep>
     <dep name="appos">1539</dep>
     <dep name="aux">1986</dep>
     <dep name="aux:pass">1076</dep>
-    <dep name="case">18482</dep>
+    <dep name="case">18498</dep>
     <dep name="cc">4858</dep>
     <dep name="cc:preconj">41</dep>
     <dep name="ccomp">1166</dep>
     <dep name="ccomp:pmod">16</dep>
     <dep name="compound">9</dep>
-    <dep name="conj">7404</dep>
+    <dep name="conj">7403</dep>
     <dep name="cop">1849</dep>
-    <dep name="csubj">297</dep>
+    <dep name="csubj">298</dep>
     <dep name="csubj:pass">27</dep>
     <dep name="dep">19</dep>
-    <dep name="det">7352</dep>
+    <dep name="det">7351</dep>
     <dep name="expl">97</dep>
     <dep name="expl:impers">20</dep>
     <dep name="expl:pass">704</dep>
     <dep name="expl:poss">38</dep>
     <dep name="expl:pv">551</dep>
-    <dep name="fixed">3261</dep>
-    <dep name="flat">391</dep>
-    <dep name="goeswith">4</dep>
+    <dep name="fixed">3233</dep>
+    <dep name="flat">393</dep>
+    <dep name="goeswith">5</dep>
     <dep name="iobj">444</dep>
     <dep name="mark">2134</dep>
-    <dep name="nmod">18981</dep>
+    <dep name="nmod">18991</dep>
     <dep name="nmod:tmod">103</dep>
     <dep name="nsubj">6163</dep>
     <dep name="nsubj:pass">1411</dep>
@@ -141,6 +141,6 @@
     <dep name="parataxis">1162</dep>
     <dep name="punct">19614</dep>
     <dep name="root">4681</dep>
-    <dep name="xcomp">487</dep>
+    <dep name="xcomp">485</dep>
   </deps>
 </treebank>
