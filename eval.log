@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Romanian-SiMoNERo:
-commit 4a03d279eb36bc345e947f7ae98373f11db89b3a
-Merge: 846091d 2f74b9f
+commit 182706191963fbdae2811dcf1503acb5cf6d9ecc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 12:57:05 2023 +0100
 Size: counted 146020 of 146020 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.96748719725588.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       1083
-Udapi: found 1083 bugs.
+               TOTAL       1082
+Udapi: found 1082 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 146020 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-SiMoNERo/ro_simonero-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.721470781368256) = 0.184992508043143
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.925832077797562) = 0.284871408553096
+(weight=0.307692307692308) * (score{udapi}=0.925900561566909) = 0.284892480482126
 (weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.758225581428492) * (availability=1) * (validity=1) = 0.758225581428492
+(TOTAL score=0.758246653357522) * (availability=1) * (validity=1) = 0.758246653357522
 STARS = 4
-UD_Romanian-SiMoNERo	0.758225581428492	4
+UD_Romanian-SiMoNERo	0.758246653357522	4
