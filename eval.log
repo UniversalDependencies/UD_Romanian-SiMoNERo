@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Romanian-SiMoNERo:
-commit 182706191963fbdae2811dcf1503acb5cf6d9ecc
+commit 13124f4b25424264c722ae87f93c90ef36e8ccce
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:57:05 2023 +0100
+Date:   Sun May 5 13:21:20 2024 +0200
 Size: counted 146020 of 146020 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.96748719725588.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -29,6 +29,14 @@ Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-SiMoNERo/ro_simonero-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-SiMoNERo/ro_simonero-ud-train.conllu
+[Line 10615 Sent train-324 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:o:det --> 1:Angio-RM:nsubj)
+[Line 18081 Sent train-546 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:o:det --> 5:ligatura:nsubj)
+[Line 27293 Sent train-815 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:urile:det --> 13:indicate:acl)
+[Line 52169 Sent train-1571 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:altor:det --> 11:gena:nmod)
+[Line 74801 Sent train-2146 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:un:det --> 1:Subunitatea:nsubj)
+[Line 106297 Sent train-3114 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:ale:det --> 1:Efectuând:advcl)
+[Line 119632 Sent train-3504 Node 22]: [L3 Warning leaf-det] 'det' not expected to have children (22:al:det --> 24:&b.beta;-celulare:amod)
+Warnings: 7
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
