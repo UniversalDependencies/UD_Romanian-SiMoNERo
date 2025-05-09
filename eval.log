@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Romanian-SiMoNERo:
-commit 13124f4b25424264c722ae87f93c90ef36e8ccce
+commit 5f946670dd199c40d71429782eb4a912be2fcfce
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:21:20 2024 +0200
+Date:   Mon Nov 11 16:30:44 2024 +0100
 Size: counted 146020 of 146020 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.96748719725588.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,33 +20,100 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       1082
-Udapi: found 1082 bugs.
+               TOTAL       1060
+Udapi: found 1060 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 146020 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-SiMoNERo/ro_simonero-ud-dev.conllu
-*** PASSED ***
+[Line 19 Sent dev-1 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'cel puțin' does not have the 'ExtPos' feature
+[Line 89 Sent dev-3 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'În ceea ce privește' does not have the 'ExtPos' feature
+[Line 334 Sent dev-10 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'cât și' does not have the 'ExtPos' feature
+[Line 379 Sent dev-12 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'De asemenea' does not have the 'ExtPos' feature
+[Line 379 Sent dev-12 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'De'
+[Line 489 Sent dev-15 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'De exemplu' does not have the 'ExtPos' feature
+[Line 489 Sent dev-15 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'De'
+[Line 560 Sent dev-17 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'De asemenea' does not have the 'ExtPos' feature
+[Line 560 Sent dev-17 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'De'
+[Line 656 Sent dev-20 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'are în vedere' does not have the 'ExtPos' feature
+[Line 769 Sent dev-22 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'în consecință' does not have the 'ExtPos' feature
+[Line 769 Sent dev-22 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+[Line 830 Sent dev-24 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'în cadrul' does not have the 'ExtPos' feature
+[Line 921 Sent dev-26 Node 27]: [L3 Warning fixed-without-extpos] Fixed expression 'odată cu' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 966 Sent dev-27 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+[Line 1179 Sent dev-32 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Pe'
+[Line 1668 Sent dev-46 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+[Line 2039 Sent dev-57 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'de'
+[Line 2059 Sent dev-57 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+[Line 2203 Sent dev-62 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+...suppressing further errors regarding Syntax
+Syntax errors: 79
+Warnings: 265
+*** FAILED *** with 79 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-SiMoNERo/ro_simonero-ud-test.conllu
-*** PASSED ***
+[Line 110 Sent test-2 Node 46]: [L3 Warning fixed-without-extpos] Fixed expression 'de pe' does not have the 'ExtPos' feature
+[Line 130 Sent test-3 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'fi vorba' does not have the 'ExtPos' feature
+[Line 150 Sent test-4 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'În ceea ce privește' does not have the 'ExtPos' feature
+[Line 155 Sent test-4 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'din urmă' does not have the 'ExtPos' feature
+[Line 155 Sent test-4 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'din'
+[Line 159 Sent test-4 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'fi vorba' does not have the 'ExtPos' feature
+[Line 216 Sent test-5 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'HLA A33' does not have the 'ExtPos' feature
+[Line 238 Sent test-5 Node 51]: [L3 Warning fixed-without-extpos] Fixed expression 'mai degrabă' does not have the 'ExtPos' feature
+[Line 283 Sent test-7 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Cu toate acestea' does not have the 'ExtPos' feature
+[Line 283 Sent test-7 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Cu'
+[Line 322 Sent test-8 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Cu toate acestea' does not have the 'ExtPos' feature
+[Line 322 Sent test-8 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Cu'
+[Line 360 Sent test-9 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'in vivo' does not have the 'ExtPos' feature
+[Line 360 Sent test-9 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' word 'in'
+...suppressing further errors regarding Warning
+[Line 786 Sent test-20 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'de'
+[Line 862 Sent test-23 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+[Line 1256 Sent test-34 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' word 'In'
+[Line 1304 Sent test-36 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'De'
+[Line 1592 Sent test-45 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+[Line 1724 Sent test-50 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+...suppressing further errors regarding Syntax
+Syntax errors: 66
+Warnings: 221
+*** FAILED *** with 66 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-SiMoNERo/ro_simonero-ud-train.conllu
-[Line 10615 Sent train-324 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:o:det --> 1:Angio-RM:nsubj)
-[Line 18081 Sent train-546 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:o:det --> 5:ligatura:nsubj)
-[Line 27293 Sent train-815 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:urile:det --> 13:indicate:acl)
-[Line 52169 Sent train-1571 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:altor:det --> 11:gena:nmod)
-[Line 74801 Sent train-2146 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:un:det --> 1:Subunitatea:nsubj)
-[Line 106297 Sent train-3114 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:ale:det --> 1:Efectuând:advcl)
-[Line 119632 Sent train-3504 Node 22]: [L3 Warning leaf-det] 'det' not expected to have children (22:al:det --> 24:&b.beta;-celulare:amod)
-Warnings: 7
-*** PASSED ***
-Validity: 1
+[Line 126 Sent train-6 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'în special' does not have the 'ExtPos' feature
+[Line 126 Sent train-6 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+[Line 317 Sent train-10 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'spre deosebire de' does not have the 'ExtPos' feature
+[Line 514 Sent train-16 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'pe termen lung' does not have the 'ExtPos' feature
+[Line 514 Sent train-16 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'pe'
+[Line 517 Sent train-16 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'din cauza' does not have the 'ExtPos' feature
+[Line 555 Sent train-17 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'PR lung' does not have the 'ExtPos' feature
+[Line 600 Sent train-19 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'spre deosebire de' does not have the 'ExtPos' feature
+[Line 663 Sent train-20 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'cel puțin' does not have the 'ExtPos' feature
+[Line 685 Sent train-20 Node 40]: [L3 Warning fixed-without-extpos] Fixed expression 'în favoarea' does not have the 'ExtPos' feature
+[Line 886 Sent train-27 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'în vederea' does not have the 'ExtPos' feature
+[Line 1118 Sent train-36 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'ceea ce' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 2137 Sent train-72 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'În'
+[Line 2256 Sent train-74 Node 50]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'la'
+[Line 2811 Sent train-92 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+[Line 3086 Sent train-99 Node 41]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+[Line 3323 Sent train-106 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'De'
+[Line 3416 Sent train-110 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Pe'
+[Line 3430 Sent train-111 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'De'
+[Line 3487 Sent train-112 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+...suppressing further errors regarding Syntax
+Syntax errors: 551
+Warnings: 2130
+*** FAILED *** with 551 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.721470781368256) = 0.184992508043143
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.925900561566909) = 0.284892480482126
+(weight=0.307692307692308) * (score{udapi}=0.927407204492535) = 0.28535606292078
 (weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.758246653357522) * (availability=1) * (validity=1) = 0.758246653357522
-STARS = 4
-UD_Romanian-SiMoNERo	0.758246653357522	4
+(TOTAL score=0.758458853191852) * (availability=1) * (validity=0.01) = 0.00758458853191852
+STARS = 0
+UD_Romanian-SiMoNERo	0.00758458853191852	0
