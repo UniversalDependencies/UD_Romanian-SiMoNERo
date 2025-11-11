@@ -46,6 +46,7 @@ Maria Mitrofan, Verginica Barbu Mititelu, Grigorina Mitrofan, MoNERo: a Biomedic
 Data available since: UD v2.5
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: medical
 Lemmas: converted from manual
 UPOS: converted from manual
