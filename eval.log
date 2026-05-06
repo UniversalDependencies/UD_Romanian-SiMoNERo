@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Romanian-SiMoNERo:
-commit 0b12501846f6829597ec367eb1ef6499f7ba50d2
-Merge: 2762958 347c0b4
+commit 8312ba19421b2d9e2fd313cb5d7de8218eb6708b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:36:45 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ro_simonero'
 Language code (from CoNLL-U file name) = 'ro'
@@ -25,85 +25,118 @@ Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-SiMoNERo/ro_simonero-ud-dev.conllu
-[Line 19 Sent dev-1]: [L3 Warning fixed-without-extpos] Fixed expression 'cel puțin' does not have the 'ExtPos' feature
-[Line 89 Sent dev-3]: [L3 Warning fixed-without-extpos] Fixed expression 'În ceea ce privește' does not have the 'ExtPos' feature
-[Line 102 Sent dev-3]: [L3 Warning verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
-[Line 263 Sent dev-7]: [L3 Warning verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
-[Line 334 Sent dev-10]: [L3 Warning fixed-without-extpos] Fixed expression 'cât și' does not have the 'ExtPos' feature
-[Line 379 Sent dev-12]: [L3 Warning fixed-without-extpos] Fixed expression 'De asemenea' does not have the 'ExtPos' feature
-[Line 379 Sent dev-12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
-[Line 489 Sent dev-15]: [L3 Warning fixed-without-extpos] Fixed expression 'De exemplu' does not have the 'ExtPos' feature
-[Line 489 Sent dev-15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
-[Line 516 Sent dev-15]: [L3 Warning verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
-[Line 560 Sent dev-17]: [L3 Warning fixed-without-extpos] Fixed expression 'De asemenea' does not have the 'ExtPos' feature
-[Line 560 Sent dev-17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
-[Line 656 Sent dev-20]: [L3 Warning fixed-without-extpos] Fixed expression 'are în vedere' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 769 Sent dev-22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
-[Line 966 Sent dev-27]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
-[Line 1179 Sent dev-32]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Pe')
-[Line 1668 Sent dev-46]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
-[Line 2039 Sent dev-57]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
-[Line 2059 Sent dev-57]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
-[Line 2203 Sent dev-62]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
-...suppressing further errors regarding Syntax
-Syntax errors: 84
-Warnings: 351
-*** FAILED *** with 84 errors
+[Line 19 Sent dev-1]: [L3 WARNING fixed-without-extpos] Fixed expression 'cel puțin' does not have the 'ExtPos' feature
+[Line 89 Sent dev-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'În ceea ce privește' does not have the 'ExtPos' feature
+[Line 102 Sent dev-3]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 263 Sent dev-7]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
+[Line 334 Sent dev-10]: [L3 WARNING fixed-without-extpos] Fixed expression 'cât și' does not have the 'ExtPos' feature
+[Line 379 Sent dev-12]: [L3 WARNING fixed-without-extpos] Fixed expression 'De asemenea' does not have the 'ExtPos' feature
+[Line 379 Sent dev-12]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
+[Line 489 Sent dev-15]: [L3 WARNING fixed-without-extpos] Fixed expression 'De exemplu' does not have the 'ExtPos' feature
+[Line 489 Sent dev-15]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
+[Line 516 Sent dev-15]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 560 Sent dev-17]: [L3 WARNING fixed-without-extpos] Fixed expression 'De asemenea' does not have the 'ExtPos' feature
+[Line 560 Sent dev-17]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
+[Line 656 Sent dev-20]: [L3 WARNING fixed-without-extpos] Fixed expression 'are în vedere' does not have the 'ExtPos' feature
+[Line 769 Sent dev-22]: [L3 WARNING fixed-without-extpos] Fixed expression 'în consecință' does not have the 'ExtPos' feature
+[Line 769 Sent dev-22]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
+[Line 830 Sent dev-24]: [L3 WARNING fixed-without-extpos] Fixed expression 'în cadrul' does not have the 'ExtPos' feature
+[Line 900 Sent dev-26]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 909 Sent dev-26]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 921 Sent dev-26]: [L3 WARNING fixed-without-extpos] Fixed expression 'odată cu' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 966 Sent dev-27]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
+[Line 1067 Sent dev-29]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 1084 Sent dev-30]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 1111 Sent dev-30]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 1158 Sent dev-31]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 1179 Sent dev-32]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Pe')
+[Line 1185 Sent dev-32]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1668 Sent dev-46]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
+[Line 2039 Sent dev-57]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
+[Line 2059 Sent dev-57]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
+[Line 2203 Sent dev-62]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 347
+SYNTAX errors: 88
+*** FAILED *** with 88 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-SiMoNERo/ro_simonero-ud-test.conllu
-[Line 93 Sent test-2]: [L3 Warning verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
-[Line 110 Sent test-2]: [L3 Warning fixed-without-extpos] Fixed expression 'de pe' does not have the 'ExtPos' feature
-[Line 114 Sent test-2]: [L3 Warning verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
-[Line 130 Sent test-3]: [L3 Warning fixed-without-extpos] Fixed expression 'fi vorba' does not have the 'ExtPos' feature
-[Line 150 Sent test-4]: [L3 Warning fixed-without-extpos] Fixed expression 'În ceea ce privește' does not have the 'ExtPos' feature
-[Line 155 Sent test-4]: [L3 Warning fixed-without-extpos] Fixed expression 'din urmă' does not have the 'ExtPos' feature
-[Line 155 Sent test-4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('din')
-[Line 159 Sent test-4]: [L3 Warning fixed-without-extpos] Fixed expression 'fi vorba' does not have the 'ExtPos' feature
-[Line 192 Sent test-5]: [L3 Warning verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
-[Line 206 Sent test-5]: [L3 Warning verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
-[Line 216 Sent test-5]: [L3 Warning fixed-without-extpos] Fixed expression 'HLA A33' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 283 Sent test-7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Cu')
-[Line 322 Sent test-8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Cu')
-[Line 360 Sent test-9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' ('in')
-[Line 374 Sent test-9]: [L3 Syntax too-many-objects] Multiple direct objects [19, 25] ('efect', 'beta') under the predicate 'avea'.
-[Line 786 Sent test-20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
-[Line 862 Sent test-23]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
-[Line 1256 Sent test-34]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' ('In')
-[Line 1304 Sent test-36]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
-[Line 1592 Sent test-45]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
-...suppressing further errors regarding Syntax
-Syntax errors: 71
-Warnings: 282
-*** FAILED *** with 71 errors
+[Line 93 Sent test-2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
+[Line 110 Sent test-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'de pe' does not have the 'ExtPos' feature
+[Line 114 Sent test-2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
+[Line 130 Sent test-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'fi vorba' does not have the 'ExtPos' feature
+[Line 150 Sent test-4]: [L3 WARNING fixed-without-extpos] Fixed expression 'În ceea ce privește' does not have the 'ExtPos' feature
+[Line 155 Sent test-4]: [L3 WARNING fixed-without-extpos] Fixed expression 'din urmă' does not have the 'ExtPos' feature
+[Line 155 Sent test-4]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('din')
+[Line 159 Sent test-4]: [L3 WARNING fixed-without-extpos] Fixed expression 'fi vorba' does not have the 'ExtPos' feature
+[Line 192 Sent test-5]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
+[Line 206 Sent test-5]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 216 Sent test-5]: [L3 WARNING fixed-without-extpos] Fixed expression 'HLA A33' does not have the 'ExtPos' feature
+[Line 229 Sent test-5]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 238 Sent test-5]: [L3 WARNING fixed-without-extpos] Fixed expression 'mai degrabă' does not have the 'ExtPos' feature
+[Line 283 Sent test-7]: [L3 WARNING fixed-without-extpos] Fixed expression 'Cu toate acestea' does not have the 'ExtPos' feature
+[Line 283 Sent test-7]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Cu')
+[Line 296 Sent test-7]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 322 Sent test-8]: [L3 WARNING fixed-without-extpos] Fixed expression 'Cu toate acestea' does not have the 'ExtPos' feature
+[Line 322 Sent test-8]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Cu')
+[Line 360 Sent test-9]: [L3 WARNING fixed-without-extpos] Fixed expression 'in vivo' does not have the 'ExtPos' feature
+[Line 360 Sent test-9]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' ('in')
+[Line 374 Sent test-9]: [L3 SYNTAX too-many-objects] Multiple direct objects [19, 25] ('efect', 'beta') under the predicate 'avea'.
+[Line 393 Sent test-10]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 675 Sent test-17]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 729 Sent test-18]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 786 Sent test-20]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
+[Line 862 Sent test-23]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
+[Line 960 Sent test-26]: [L3 WARNING verbform-fin-without-mood] Finite verb 'vor' lacks the 'Mood' feature
+[Line 1256 Sent test-34]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' ('In')
+[Line 1304 Sent test-36]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
+[Line 1592 Sent test-45]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
+...suppressing further messages regarding ERROR/SYNTAX
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 280
+SYNTAX errors: 73
+*** FAILED *** with 73 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-SiMoNERo/ro_simonero-ud-train.conllu
-[Line 126 Sent train-6]: [L3 Warning fixed-without-extpos] Fixed expression 'în special' does not have the 'ExtPos' feature
-[Line 126 Sent train-6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
-[Line 317 Sent train-10]: [L3 Warning fixed-without-extpos] Fixed expression 'spre deosebire de' does not have the 'ExtPos' feature
-[Line 514 Sent train-16]: [L3 Warning fixed-without-extpos] Fixed expression 'pe termen lung' does not have the 'ExtPos' feature
-[Line 514 Sent train-16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('pe')
-[Line 517 Sent train-16]: [L3 Warning fixed-without-extpos] Fixed expression 'din cauza' does not have the 'ExtPos' feature
-[Line 555 Sent train-17]: [L3 Warning fixed-without-extpos] Fixed expression 'PR lung' does not have the 'ExtPos' feature
-[Line 600 Sent train-19]: [L3 Warning fixed-without-extpos] Fixed expression 'spre deosebire de' does not have the 'ExtPos' feature
-[Line 663 Sent train-20]: [L3 Warning fixed-without-extpos] Fixed expression 'cel puțin' does not have the 'ExtPos' feature
-[Line 685 Sent train-20]: [L3 Warning fixed-without-extpos] Fixed expression 'în favoarea' does not have the 'ExtPos' feature
-[Line 886 Sent train-27]: [L3 Warning fixed-without-extpos] Fixed expression 'în vederea' does not have the 'ExtPos' feature
-[Line 1118 Sent train-36]: [L3 Warning fixed-without-extpos] Fixed expression 'ceea ce' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 1218 Sent train-40]: [L3 Syntax too-many-objects] Multiple direct objects [2, 4] ('rol', 'îl') under the predicate 'au'.
-[Line 2137 Sent train-72]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('În')
-[Line 2256 Sent train-74]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('la')
-[Line 2811 Sent train-92]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
-[Line 3086 Sent train-99]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
-[Line 3323 Sent train-106]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
-[Line 3416 Sent train-110]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Pe')
-[Line 3430 Sent train-111]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
-...suppressing further errors regarding Syntax
-Syntax errors: 587
-Warnings: 3011
-*** FAILED *** with 587 errors
+[Line 126 Sent train-6]: [L3 WARNING fixed-without-extpos] Fixed expression 'în special' does not have the 'ExtPos' feature
+[Line 126 Sent train-6]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
+[Line 317 Sent train-10]: [L3 WARNING fixed-without-extpos] Fixed expression 'spre deosebire de' does not have the 'ExtPos' feature
+[Line 514 Sent train-16]: [L3 WARNING fixed-without-extpos] Fixed expression 'pe termen lung' does not have the 'ExtPos' feature
+[Line 514 Sent train-16]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('pe')
+[Line 517 Sent train-16]: [L3 WARNING fixed-without-extpos] Fixed expression 'din cauza' does not have the 'ExtPos' feature
+[Line 555 Sent train-17]: [L3 WARNING fixed-without-extpos] Fixed expression 'PR lung' does not have the 'ExtPos' feature
+[Line 600 Sent train-19]: [L3 WARNING fixed-without-extpos] Fixed expression 'spre deosebire de' does not have the 'ExtPos' feature
+[Line 663 Sent train-20]: [L3 WARNING fixed-without-extpos] Fixed expression 'cel puțin' does not have the 'ExtPos' feature
+[Line 685 Sent train-20]: [L3 WARNING fixed-without-extpos] Fixed expression 'în favoarea' does not have the 'ExtPos' feature
+[Line 886 Sent train-27]: [L3 WARNING fixed-without-extpos] Fixed expression 'în vederea' does not have the 'ExtPos' feature
+[Line 1118 Sent train-36]: [L3 WARNING fixed-without-extpos] Fixed expression 'ceea ce' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 1218 Sent train-40]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 4] ('rol', 'îl') under the predicate 'au'.
+[Line 1991 Sent train-67]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
+[Line 2137 Sent train-72]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('În')
+[Line 2256 Sent train-74]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('la')
+[Line 2558 Sent train-82]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
+[Line 2811 Sent train-92]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
+[Line 3086 Sent train-99]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
+[Line 3323 Sent train-106]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
+[Line 3362 Sent train-107]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 3416 Sent train-110]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Pe')
+[Line 3430 Sent train-111]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 4282 Sent train-140]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
+[Line 4330 Sent train-142]: [L3 WARNING verbform-fin-without-mood] Finite verb 'vor' lacks the 'Mood' feature
+[Line 4390 Sent train-144]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 4749 Sent train-156]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 4810 Sent train-158]: [L3 WARNING verbform-fin-without-mood] Finite verb 'au' lacks the 'Mood' feature
+[Line 5688 Sent train-188]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
+[Line 6074 Sent train-201]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ar' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 2999
+SYNTAX errors: 599
+*** FAILED *** with 599 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
